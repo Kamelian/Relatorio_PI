@@ -1,0 +1,101 @@
+<html>
+<head><meta http-equiv="Content-type" content="text/html;charset=UTF-8"></head>
+<body>
+
+<h1>LaTeX para Trabalhos Académicos no IPBeja</h3>
+<br/><small><b><i>Versão 0.2 de 10 de outubro de 2013</i></b><br/>
+Corrige legenda das listagens: Listing -> Listagem.
+<br/><b><i>Versão 0.3 de 3 de julho de 2014</i></b><br/>
+Altera ordem dos orientadores em caso de estágio (em primeiro lugar surge agora o orientador na entidade de acolhimento)<br/>
+Acrescenta   <br/>
+note          = "Consultado em 2013/10/02"<br/>
+no exemplo de referência eletrónica no ficheiro  bibliografiaDoRelatorio.bib
+</small>
+
+<p>Este conjunto de ficheiros pretende facilitar a escrita, de acordo com o formato requerido
+para os trabalhos académicos no Instituto Politécnico
+de Beja e, em particular, para os relatórios de estágio ou
+projecto final de curso da licenciatura em 
+Engenharia Informática da Escola Superior de Tecnologia e Gestão do mesmo instituto. 
+Assim, destinam-se à unidade curricular de "Estágio ou Projecto" do último 
+semestre desse mesmo curso. 
+
+<p>Possivelmente com muito pouco esforço adicional, serão adaptáveis a outros relatórios 
+de projectos finais ou documentos semelhantes. 
+
+<p>O formato segue (ou pelo menos está muto próximo) do recomendado pelo 
+respectivo documento normativo do IPBeja intitulado
+"<a href="https://www.ipbeja.pt/RepositorioDocumentosOficiais/Documents/Normas%20Obrigat%C3%B3rias%20para%20a%20Elabora%C3%A7%C3%A3o%20de%20Documentos%20Institucionais%20e%20Trabalhos%20Acad%C3%A9micos.pdf">
+Normas Obrigatórias para a Elaboração de Documentos Institucionais e Trabalhos
+Académicos</a>".
+
+<p>Os ficheiros tentam ser auto-explicativos, MAS continua a ser necessário possuir ou 
+adquirir conhecimentos básicos de LaTeX...
+
+<p>Aqui ficam as instruções resumidas:
+<ol>
+<li>A primeira tarefa será instalar uma distribuição LaTeX no seu computador. 
+As recomendações usuais são as seguintes:
+<ul>
+  <li>Para Windows: <a href="http://miktex.org/">http://miktex.org/</a> 
+  <li>Para Mac OS:  <a href="http://tug.org/mactex/">http://tug.org/mactex/</a> (inclui editores de texto)
+  <li>Para Linux: <a href="http://www.tug.org/texlive/">http://www.tug.org/texlive/</a> (veja por exemplo o seguinte link:
+    <a href="http://xmodulo.com/2013/01/how-to-install-latex-on-ubuntu-or-debian.html">http://xmodulo.com/2013/01/how-to-install-latex-on-ubuntu-or-debian.html</a>)
+</ul>  
+Em Windows, os seguintes dois editores são muito utilizados:
+<ul>
+<li><a href="http://www.texniccenter.org/">http://www.texniccenter.org/</a>
+<li><a href="http://www.xm1math.net/texmaker/">http://www.xm1math.net/texmaker/</a>
+</ul>
+<li>O ficheiro principal tem o nome "minutaDoRelatorio.tex". É este que permite gerar o
+relatório.
+
+<li>A informação "base" (titulo, autor, etc.) deve ser colocada no ficheiro 
+"info-para-preencher.tex" nos locais lá assinalados.
+
+<li>A bibliografia deve ser colocada no ficheiro "bibliografiaDoRelatorio.bib".
+
+<li>O conteúdo do relatório deve ser colocado em ficheiros nas seguintes directorias:
+<ul>
+<li>"parte-inicial" resumo, agradecimentos, etc.
+<li>"capitulos" texto dos capítulos
+<li>"figuras" para todas as imagens
+<li>"listagens" para listagens de código
+<li>"apendices" se existentes
+<li>"anexos" se existentes
+</ul>
+
+<li>A sequência típica de execução será executar dois programas (latex e bibtex) 
+pela seguinte ordem:
+  <ul>
+  <li>latex "minutaDoRelatorio.tex" (executar duas ou três vezes para gerar um 
+      "minutaDoRelatorio.pdf" a partir dos ficheiros.tex, imagens e listagens)
+  <li>bibtex (para gerar a bibliografia em "minutaDoRelatorio.bbl" a partir do ficheiro
+       "minutaDoRelatorio.aux" e do ficheiro "bibliografiaDoRelatorio.bib")
+  <li>latex (executar duas ou três vezes para gerar o "minutaDoRelatorio.pdf"
+      já com a bibliografia completa). Se já tiver a bibliografia gerada 
+      (o ficheiro "minutaDoRelatorio.bbl"), bastará o passo 6.1.
+  </ul>
+</ol>
+
+<p>Agradeço que quaisquer sugestões de melhoria sejam enviadas para
+<a href="mailto:joao.barros@ipbeja.pt">João Paulo Barros</a>.<br> 
+
+<hr/>
+<p>NOTA IMPORTANTE: 
+<p> Note que todos os ficheiros nesta distribuição são oferecidos sem qualquer garantia, 
+expressa ou implícita. O utilizador assume todos os riscos na sua utilização. 
+Nem o autor nem o Instituto Politécnico de Beja podem ser responsabilizados por quaisquer 
+danos resultantes da utilização de qualquer destes ficheiros.
+<p> Esta distribuição ou os seus ficheiros podem ser livremente utilizados e modificados 
+desde que se mantenham todas as referências à sua autoria e origem.
+<hr/>
+
+<p>Votos de um excelente relatório!
+<hr/>
+<address>
+João Paulo Barros<br/>
+Beja, 18 de abril de 2013<br/>
+Beja, 10 de outubro de 2013 <br/>
+Beja, 3 de julho de 2014
+</address>

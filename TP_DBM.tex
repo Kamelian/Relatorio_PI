@@ -1,0 +1,59 @@
+% Minuta para relatórios finais para a unidade curricular
+% de "Estagio ou Projecto" do curso de Licenciatura em Engenharia Informática
+% do Instituto Politécnico de Beja
+% Versão de 2013/04/18
+% Autor: João Paulo Barros, joao.barros@ipbeja.pt
+
+\documentclass{ipbeja-trabalhos-academicos}
+\input{info-para-preencher}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter % parte inicial
+\folhacapa
+\folharosto
+
+\input{parte-inicial/resumo}
+\input{parte-inicial/abstract}
+
+% Se pretender remover, comente a linha seguinte, caso contrário preencha o ficheiro agradecimentos.tex
+\input{parte-inicial/agradecimentos}
+
+
+\indicegeral  
+\indicedefiguras % só se existirem mais do que 5 figuras. Caso contrário, remova.
+\indicedetabelas % só se existirem mais do que 5 tabelas. Caso contrário, remova.
+\indicedelistagens % só se existirem mais do que 5 listagens
+
+% No caso de se verificar "um número significativamente elevado de abreviaturas e siglas" deve retirar-se o 
+% comentário da linha seguinte e preencher o ficheiro parte-inicial/abreviaturas.tex
+%\include{parte-inicial/abreviaturas} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter  \pagestyle{ruled} % parte principal
+
+\input{capitulos/capitulo1-introducao} % capitulo 1
+\input{capitulos/capitulo2}
+\input{capitulos/capitulo3}
+\input{capitulos/capitulo4}
+\input{capitulos/capitulo5}
+% para adicionar o  capítulo N adicione a linha \input{capituloN} e crie o ficheiro 
+% capituloN.tex na directoria "capitulos" 
+
+% Bibliografia
+%http://www.ieee.org/publications_standards/publications/authors/author_templates.html
+\bibliographystyle{bibstyle-ipbeja}  
+\bibliography{bibliografiaDoRelatorio}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\apendices
+\input{apendices/apendice1}
+% para adicionar o  apêndice N adicione a linha \input{apendiceN} e crie o ficheiro 
+% apendiceN.tex na directoria "apendices" 
+
+\anexos
+\input{anexos/anexo1}
+% para adicionar o  anexo N adicione a linha \input{anexoN} e crie o ficheiro 
+% anexoN.tex na directoria "anexos" 
+
+\end{document}
