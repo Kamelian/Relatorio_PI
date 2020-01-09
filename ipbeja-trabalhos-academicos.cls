@@ -36,6 +36,8 @@ pagebackref, % Adds ‘backlink’ text to the end of each item
 
 \RequirePackage{ifthen}
 \RequirePackage[official]{eurosym}
+\RequirePackage{booktabs}
+\RequirePackage{multirow}
 \RequirePackage{censor}
 
 

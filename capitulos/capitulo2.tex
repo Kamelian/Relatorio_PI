@@ -6,14 +6,7 @@
 %\subsection{Título de uma subseção}
 %\subsubsection{Título de parágrafo de texto normal}
 
-Atraves da analise de sistemas de teleassitencia, utilizados no mercado actualmente, foi possivel estudar o problema em questao, identificando os funcionalidades mais relevantes e os pontos fracos dos sistemas estudos. Na \ref{fig:cenario_global} e apresentada uma visão global do sistema na qual se podem identificar as principais funcionalidades e entidades que interagem com o sistema, assim sendo e possível desta forma apresentar de uma forma simples a interacção entre os actores e o sistema.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=0.5\textwidth]{figuras/cenario_global_utilizacao.jpg}
-	\caption{Diagrama de casos de uso}
-	\label{fig:cenario_global}
-\end{figure}
+INSERIR AQUI TEXTO DE ENCHER CHOURIÇO
 
 \section{As 11 questões da análise de tarefas}
 
@@ -106,11 +99,11 @@ Apercebendo-se imediatamente de que tinha activado o sistema de teleassistência
 
 Tendo em vista a criação do sistema desde raiz, torna-se necessário ter atenção a dois conjuntos de tarefas, as que envolvem a gestão do sistema e as que envolvem a utilização do hardware. A gestão do sistema é necessariamente anterior à utilização do sistema.
 \begin{itemize}
-	\item\textbf{Adicionar de um piquete -} O gestor do sistema deve criar um, ou mais, entidades que recebem os avisos de ocorrências (piquete) por parte do sistema. A esta entidade deve estar associado uma séria de informações que garantam a capacidade de contacto. 
+	\item\textbf{Criação de um piquete -} O gestor do sistema deve criar um, ou mais, entidades que recebem os avisos de ocorrências (piquete) por parte do sistema. A esta entidade deve estar associado uma séria de informações que garantam a capacidade de contacto. 
 	
-	\item\textbf{Reportar uma ocorrência manualmente - } Uma ocorrência pode ser reportada pelo utilizador, de modo consciente, através do pulsar de um botão de pânico que está associado ao sistema.
+	\item\textbf{Reportar uma ocorrência manualmente-} Uma ocorrência pode ser reportada pelo utilizador, de modo consciente, através do pulsar de um botão de pânico que está associado ao sistema.
 	
-	\item\textbf{Reportar uma ocorrência automaticamente - } Uma ocorrência pode também ser reportada sem acção consciente do utilizador, através dos sensores associados ao sistema. 
+	\item\textbf{Reportar uma ocorrência automaticamente-} Uma ocorrência pode também ser reportada sem acção consciente do utilizador, através dos sensores associados ao sistema. 
 	
 	\item\textbf{Receber o aviso de uma ocorrência - }
 \end{itemize}
@@ -120,23 +113,22 @@ Tendo em vista a criação do sistema desde raiz, torna-se necessário ter aten�
 O sistema vai funcionar com base em três tipos de actores.
 
 \begin{itemize}
-	\item\textbf{Gestor do sistema - }Tem como função gerir e  supervisionar o sistema, garantindo a gestão dos piquetes, gestão das ocorrências e gestão das novidades, através de operacoes CRUDE.
+	\item\textbf{Gestor do sistema - }Tem como função gerir o sistema, garantindo a criação dos piquetes e fazendo a gestão das ocorrências.
 	
 	\item\textbf{Utente do sistema - }Tem como função criar as ocorrências.
 	
 	\item\textbf{Piquete - }Tem como função receber os avisos das ocorrências e prestar o auxílio necessário. Pode-se dizer que no âmbito do sistema a desenvolver, este será o actor mais passivo, uma vez que a sua única função é responder ao sistema.
 \end{itemize}
 
-\section{Casos de uso}
-
 \section{Diagramas de casos de uso}
-Para descrever os principais casos de uso do sistema, utilizou-se o diagrama de casos de uso presente na \ref{fig:diagrama_casos_uso}. Podemos observar nesta figura a interacção entre elementos do sistema num contexto de elevada abstracção.
-Os principais casos descritos no âmbito deste trabalho sao:
+
+Para descrever os principais casos de uso do sistema, utilizou-se o diagrama de casos de uso presente na \ref{fig:diagrama_casos_uso}. Podemos observar nesta figura a interacção entre elementos do sistema num contexto de
+elevada abstracção. Os principais casos descritos no âmbito dese trabalho são:
 \begin{itemize}
-	\item Adicionar piquete por parte do actor 2
-	\item Utilização do botão SOS por parte do actor 1 
-	\item Detecao de queda por parte do actor 1
-	\item Envio de um alerta de ocorrência para o actor 3 
+	\item Adicionar piquete, por parte do actor 2
+	\item Utilização do botão de SOS, por parte do actor 1
+	\item Detecção de queda,m por parte do actor 1
+	\item envio de um alerta de ocorrência para o actor 3
 \end{itemize}
 
 \begin{figure}[!htb]
@@ -145,43 +137,84 @@ Os principais casos descritos no âmbito deste trabalho sao:
 		\label{fig:diagrama_casos_uso}
 \end{figure}
 
+\section{Especificação dos casos de uso}
+
+O cenário de utilização normal do sistema permite elaborar e ilustrar um caso de uso numa tabela, na qual são descritos os atributos do caso de uso, sequência e funcionalidades.
+
+\begin{table}[]
+	\caption{Exemplo de caso de uso}
+	\label{tab:exemplo_caso_uso}
+	\centering
+\begin{tabular}{
+		|>{\centering\arraybackslash}m{3.5cm}
+		|l
+		|>{\centering\arraybackslash}m{5cm}
+		|>{\centering\arraybackslash}m{5cm}
+		|
+	}
+	\hline
+	\textbf{Caso de uso}                           & \multicolumn{3}{l|}{Adicionar piquete.}
+	\\ \hline
+	\textbf{Nota}                                  & \multicolumn{3}{l|}{Neste cenário o utilizador representa o gestor do sistema.}
+	\\ \hline
+	\textbf{Breve descrição}                       & \multicolumn{3}{l|}{O gestor de sistema vai criar um novo piquete.}
+	\\ \hline
+	\textbf{Pré-condições}                         & \multicolumn{3}{p{11cm}|}{O gestor deve estar autenticado no sistema, situar-se na homepage e possuir as informações correctas.}
+	\\ \hline
+	\textbf{Pós-condições}                         & \multicolumn{3}{l|}{As informações do piquete passam a estar presentes no sistema.}
+	\\ \hline
+	\multirow{7}{*}{\rotatebox[origin=c]{90}{Sequência de eventos}} & \multicolumn{1}{c||}{}  & \multicolumn{1}{c|}{Input do actor} & \multicolumn{1}{c|}{Resposta do sistema}
+										  \\ \cline{2-4} 
+										  & \multicolumn{1}{c||}{1} & No menu de navegação, que se encontra no topo da página, clicar sobre a opção Piquetes & 
+										  \\ \cline{2-4} 
+										  & \multicolumn{1}{c||}{2} &  & É apresentado a página de piquetes. Nesta página estão os botões “adicionar piquete” e “procurar”, bem como uma lista do piquetes já criados.
+										  \\ \cline{2-4} 
+										  & \multicolumn{1}{c||}{3} & Clicar sobre o botão “adicionar piquete” & 
+										  \\ \cline{2-4} 
+										  & \multicolumn{1}{c||}{4} &  & É apresentada uma página que contêm os campos “Zona”, “Nome”, “Email”, “Numero” e “Notas”. Existem também os botões “submit” e ”Cancel”
+										  \\ \cline{2-4}
+										  & \multicolumn{1}{c||}{5} & Preencher os campos com a as informações correctas e clicar no botão submit. & 
+										  \\ \cline{2-4}										  
+										  & \multicolumn{1}{c||}{6} &  & É apresentado, novamente, a página de piquetes. O piquete criado é apresentado no topo da página.
+										  \\ \hline
+\end{tabular}
+\end{table}
+
 
 
 
 \section{Requisitos}
 \subsection{Requisitos funcionais}
 \textbf{Botão de pânico/emergência:}o sistema deve ter um botão de emergência que efectua uma chamada de emergência para o número de assistência.
-\\\\
-\textbf{Geolocalizacao:}o sistema deve ser capaz de saber a posição actual e enviá-la quando necessário (queda, botão, imobilização, …).
-\\\\
-\textbf{Acelerómetro e giroscópio:}o sistema tem de ter sensores que lhe permitam detectar uma queda.
-\\\\
+\\
+\textbf{Receptor GPS:}o sistema deve ser capaz de saber a posição actual e enviá-la quando necessário (queda, botão, imobilização, …).
+\\
+\textbf{Sensor Acelerómetro:}o sistema tem de ter um sensor de queda.
+\\
 \textbf{Capacidade de análise:}o sistema deve saber quando o utilizador está imóvel demasiado tempo, por exemplo, após uma queda e imobilizado durante pelo menos 3 minutos.
-\\\\
-\textbf{Auto-diagnostico:}o sistema tem de avisar o utilizador quando a bateria está fraca abaixo de 25\%.
-\\\\
+\\
+\textbf{Auto-diagnostico:}o sistema tem de avisar o utilizador quando a bateria está fraca abaixo de 25%.
+\\
 \textbf{Registo eventos Base Dados:}O sistema deve enviar para uma base de dados remota os pedidos de assistência (positivos e falsos positivos), posição, estado de bateria, etc…
-\\\\
+\\
 \textbf{Interface:} A interface tem de ser simples e para tal apenas deve ter duas luzes indicadoras de estado, verde e vermelho.
 
 \subsection{Requisitos não funcionais}
-\textbf{Desempenho:}O sistema deve ter um desempenho adequado, e permitir um envio de alerta em menos de 30 segundos.
-\\\\
+\textbf{Desempenho:}o sistema deve ter um desempenho adequado, e permitir um envio de alerta em menos de 30 segundos.
+\\
 \textbf{Regras de utilização:}o sistema deve ser de utilização simples e intuitiva, adequada ao tipo de utilizador a que se destina.
-\\\\
-\textbf{Disponibilidade:}o sistema deve manter uma disponibilidade total de 99,9\%. 
-\\\\
-\textbf{Preço:}O sistema deve ter um custo inicial de desenvolvimento inferior a 25000\euro, um custo de produção de hardware (dispositivo wereable) inferior a 100\euro e um custo de manutenção anual inferior a 50000\euro para o serviço de teleassistência.
-\\\\
+\\
+\textbf{Disponibilidade:}O sistema deve manter uma disponibilidade total de 99,9\%. 
+\\
+\textbf{Preço:}O sistema deve ter um custo inicial de desenvolvimento inferior a \euro25000, um custo de produção de hardware (dispositivo wereable) inferior a \euro100 e um custo de manutenção anual inferior a \euro50000 para o serviço de teleassistência.
+\\
 \textbf{Legislação:}deve ser implementado o Regulamento Geral sobre a Protecção de Dados
 
 \subsection{Requisitos de desenvolvimento}
 \textbf{Web Responsive:}desenvolvimento web responsive com suporte para vários dispositivos.
-\\\\
+\\
 \textbf{Linguagens de programação:}devem ser utilizadas as linguagens (não exclusivamente): C, PHP, HTML, SQL.
-\\\\
+\\
 \textbf{Servidores:}os servidores de registo de eventos devem utilizar os sistemas operativos Windows ou Linux.
-\\\\
+\\
 \textbf{Implementação/manutenção:}deve ser possível implementar novas funcionalidades através de updates Over the Air (OTA).
-\\\\
-\textbf{Implementação de base de dados relacional:} deve ser possivel permitir a evolução futuro do sistema, permitindo uma gestao mais eficiente dos equipamentos.
