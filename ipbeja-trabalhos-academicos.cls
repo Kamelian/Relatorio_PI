@@ -38,6 +38,7 @@ pagebackref, % Adds ‘backlink’ text to the end of each item
 \RequirePackage[official]{eurosym}
 \RequirePackage{booktabs}
 \RequirePackage{multirow}
+\RequirePackage[section]{placeins}
 \RequirePackage{censor}
 
 
@@ -119,7 +120,7 @@ pagebackref, % Adds ‘backlink’ text to the end of each item
 		{}%vazio
 		{% mais um orientador do curso
 			\vspace{.2cm}
-			\ORIENTADORIPBB, IPBeja\\
+		%	\ORIENTADORIPBB, IPBeja\\
 		}
 		\vspace{2cm}
 		\ifthenelse{\isundefined{\ORIENTADORENTIDADE}}

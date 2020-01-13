@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.2)  9 JAN 2020 23:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.2)  13 JAN 2020 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,6 +787,9 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@dima=\skip193
 \bigstrutjot=\dimen259
 )
+(c:/texlive/2019/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
 (c:/texlive/2019/texmf-dist/tex/latex/censor/censor.sty
 Package: censor 2018/11/15 3.22Provides capability for redaction of sensitive i
 nformation
@@ -919,7 +922,7 @@ LaTeX Info: Redefining \nameref on input line 10.
 \openout4 = `TP_DBM.out'.
 
 \c@lstlisting=\count337
-<logos/logo-ipbeja.pdf, id=216, 646.415pt x 499.8675pt>
+<logos/logo-ipbeja.pdf, id=224, 646.415pt x 499.8675pt>
 File: logos/logo-ipbeja.pdf Graphic file (type pdf)
 <use logos/logo-ipbeja.pdf>
 Package pdftex.def Info: logos/logo-ipbeja.pdf  used on input line 13.
@@ -936,7 +939,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<logos/logo-estig.pdf, id=217, 845.0471pt x 597.50829pt>
+<logos/logo-estig.pdf, id=225, 845.0471pt x 597.50829pt>
 File: logos/logo-estig.pdf Graphic file (type pdf)
 <use logos/logo-estig.pdf>
 Package pdftex.def Info: logos/logo-estig.pdf  used on input line 13.
@@ -968,9 +971,6 @@ Overfull \hbox (3.53766pt too wide) detected at line 7
  []
 
 [11]
-Underfull \vbox (badness 1297) has occurred while \output is active []
-
-
 
 Class memoir Warning: The material used in the headers is too large
 (15.71669pt) for the given head height (14.5pt), it is recommended to
@@ -1000,38 +1000,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 ]
-<figuras/Sistemas_alert_Alarm_Australia.jpg, id=419, 58.71938pt x 75.28125pt>
+<figuras/Sistemas_alert_Alarm_Australia.jpg, id=444, 58.71938pt x 75.28125pt>
 File: figuras/Sistemas_alert_Alarm_Australia.jpg Graphic file (type jpg)
 <use figuras/Sistemas_alert_Alarm_Australia.jpg>
 Package pdftex.def Info: figuras/Sistemas_alert_Alarm_Australia.jpg  used on in
-put line 25.
+put line 23.
 (pdftex.def)             Requested size: 85.35826pt x 109.43413pt.
-<figuras/Sistemas_MedicalAlert.png, id=420, 289.83281pt x 429.85594pt>
+<figuras/Sistemas_MedicalAlert.png, id=445, 289.83281pt x 429.85594pt>
 File: figuras/Sistemas_MedicalAlert.png Graphic file (type png)
 <use figuras/Sistemas_MedicalAlert.png>
 Package pdftex.def Info: figuras/Sistemas_MedicalAlert.png  used on input line 
-31.
+29.
 (pdftex.def)             Requested size: 85.35826pt x 126.59651pt.
-<figuras/Sistemas_Bluestar.png, id=421, 188.3838pt x 188.3838pt>
+<figuras/Sistemas_Bluestar.png, id=446, 188.3838pt x 188.3838pt>
 File: figuras/Sistemas_Bluestar.png Graphic file (type png)
 <use figuras/Sistemas_Bluestar.png>
-Package pdftex.def Info: figuras/Sistemas_Bluestar.png  used on input line 37.
+Package pdftex.def Info: figuras/Sistemas_Bluestar.png  used on input line 35.
 (pdftex.def)             Requested size: 85.35826pt x 85.35832pt.
 
-Underfull \hbox (badness 1297) in paragraph at lines 38--38
+Underfull \hbox (badness 1297) in paragraph at lines 36--36
 []\OT1/cmr/bx/n/12 Figura 1.3: []\OT1/cmr/m/n/12 Admiral
  []
 
-<figuras/Sistemas_Lifeline.png, id=425, 226.446pt x 185.0112pt>
+<figuras/Sistemas_Lifeline.png, id=450, 226.446pt x 185.0112pt>
 File: figuras/Sistemas_Lifeline.png Graphic file (type png)
 <use figuras/Sistemas_Lifeline.png>
-Package pdftex.def Info: figuras/Sistemas_Lifeline.png  used on input line 49.
+Package pdftex.def Info: figuras/Sistemas_Lifeline.png  used on input line 47.
 (pdftex.def)             Requested size: 174.13245pt x 142.26378pt.
-<figuras/sistemas_Medical_Alert_System.png, id=426, 224.037pt x 224.037pt>
+<figuras/sistemas_Medical_Alert_System.png, id=451, 224.037pt x 224.037pt>
 File: figuras/sistemas_Medical_Alert_System.png Graphic file (type png)
 <use figuras/sistemas_Medical_Alert_System.png>
 Package pdftex.def Info: figuras/sistemas_Medical_Alert_System.png  used on inp
-ut line 55.
+ut line 53.
 (pdftex.def)             Requested size: 142.26532pt x 142.26378pt.
 [2 <./figuras/Sistemas_alert_Alarm_Australia.jpg> <./figuras/Sistemas_MedicalAl
 ert.png> <./figuras/Sistemas_Bluestar.png>])
@@ -1041,83 +1041,144 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 png>]
 (./capitulos/capitulo2.tex [4
 
-] [5]
-Overfull \hbox (4.23334pt too wide) in paragraph at lines 47--48
-\OT1/cmr/m/n/12 Sendo este um sis-tema de te-le-as-sist^encia em ca-sos de emer
-g^encia, parte-se do princ^^S^^Ppio
- []
-
-[6] [7] [8]
-Overfull \hbox (0.50838pt too wide) in paragraph at lines 96--97
+]
+<figuras/cenario_global_sistema.png, id=470, 311.66437pt x 372.64218pt>
+File: figuras/cenario_global_sistema.png Graphic file (type png)
+<use figuras/cenario_global_sistema.png>
+Package pdftex.def Info: figuras/cenario_global_sistema.png  used on input line
+ 9.
+(pdftex.def)             Requested size: 234.73654pt x 280.66933pt.
+ [5 <./figuras/cenario_global_sistema.png>]
+[6] [7] [8] [9]
+Overfull \hbox (4.425pt too wide) in paragraph at lines 99--100
 []\OT1/cmr/m/n/12 Apercebendo-se ime-di-a-ta-mente de que ti-nha ac-ti-vado o s
-is-tema de te-le-as-sist^encia,
+is-tema de tele-assist^encia,
  []
 
-[9]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-02.
- (c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+05.
+(c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 102.
-
-Overfull \hbox (11.07066pt too wide) in paragraph at lines 106--107
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
+ [10]
+Overfull \hbox (11.07066pt too wide) in paragraph at lines 109--110
 []\OT1/cmr/bx/n/12 Reportar uma ocorr^encia automaticamente- \OT1/cmr/m/n/12 Um
 a ocorr^encia pode tamb^^Sem
  []
 
-[10]
-<figuras/diagrama_casos_uso.jpg, id=476, 963.6pt x 564.60938pt>
-File: figuras/diagrama_casos_uso.jpg Graphic file (type jpg)
-<use figuras/diagrama_casos_uso.jpg>
-Package pdftex.def Info: figuras/diagrama_casos_uso.jpg  used on input line 135
+<figuras/diagrama_casos_uso.png, id=505, 1009.52156pt x 563.10374pt>
+File: figuras/diagrama_casos_uso.png Graphic file (type png)
+<use figuras/diagrama_casos_uso.png>
+Package pdftex.def Info: figuras/diagrama_casos_uso.png  used on input line 138
 .
-(pdftex.def)             Requested size: 426.79135pt x 250.06578pt.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 144.
-
-
-Overfull \vbox (6.2726pt too high) detected at line 166
+(pdftex.def)             Requested size: 426.79135pt x 238.05716pt.
+[11]
+Overfull \vbox (6.2726pt too high) detected at line 170
  []
 
 
-Overfull \hbox (25.61488pt too wide) in paragraph at lines 148--181
+Underfull \hbox (badness 3128) in paragraph at lines 172--172
+\OT1/cmr/m/n/12 se en-con-tra no topo da
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 174--175
+\OT1/cmr/m/n/12 pi-que-tes. Nesta p^^Sagina
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+\OT1/cmr/m/n/12 que cont^em os cam-pos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+\OT1/cmr/m/n/12 tem tamb^^Sem os bot~oes
+ []
+
+
+Overfull \hbox (25.61488pt too wide) in paragraph at lines 152--185
  [][] 
  []
 
-[11 <./figuras/diagrama_casos_uso.jpg>] [12]) (./capitulos/capitulo3.tex
-[13] [14]) (./capitulos/capitulo4.tex [15
 
-] [16
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-]) (./capitulos/capitulo5.tex
-[17] [18
+[12 <./figuras/diagrama_casos_uso.png>]
+Underfull \vbox (badness 1490) has occurred while \output is active []
+
+ [13])
+(./capitulos/capitulo3.tex [14]
+<figuras/diagrama_arvore.png, id=527, 2067.725pt x 1726.45pt>
+File: figuras/diagrama_arvore.png Graphic file (type png)
+<use figuras/diagrama_arvore.png>
+Package pdftex.def Info: figuras/diagrama_arvore.png  used on input line 13.
+(pdftex.def)             Requested size: 426.79135pt x 356.34814pt.
+ [15
+
+]
+<figuras/diagrama_e-r.png, id=533, 793.96625pt x 869.2475pt>
+File: figuras/diagrama_e-r.png Graphic file (type png)
+<use figuras/diagrama_e-r.png>
+Package pdftex.def Info: figuras/diagrama_e-r.png  used on input line 36.
+(pdftex.def)             Requested size: 426.79135pt x 467.26448pt.
+<figuras/modelo_físico.png, id=535, 590.205pt x 374.90062pt>
+File: figuras/modelo_físico.png Graphic file (type png)
+<use figuras/modelo_físico.png>
+Package pdftex.def Info: figuras/modelo_físico.png  used on input line 47.
+(pdftex.def)             Requested size: 426.79135pt x 271.10666pt.
+ [16 <./figuras/diagrama_arvore.png>]
+[17 <./figuras/diagrama_E-R.png>]
+<figuras/sequence_diagram_gestor.png, id=547, 659.46375pt x 517.18219pt>
+File: figuras/sequence_diagram_gestor.png Graphic file (type png)
+<use figuras/sequence_diagram_gestor.png>
+Package pdftex.def Info: figuras/sequence_diagram_gestor.png  used on input lin
+e 68.
+(pdftex.def)             Requested size: 426.79135pt x 334.72028pt.
+<figuras/sequence_diagram_system_2.png, id=548, 846.91406pt x 490.08093pt>
+File: figuras/sequence_diagram_system_2.png Graphic file (type png)
+<use figuras/sequence_diagram_system_2.png>
+Package pdftex.def Info: figuras/sequence_diagram_system_2.png  used on input l
+ine 79.
+(pdftex.def)             Requested size: 426.79135pt x 246.9692pt.
+<figuras/sequence_diagram_visitante.png, id=549, 652.68843pt x 304.13625pt>
+File: figuras/sequence_diagram_visitante.png Graphic file (type png)
+<use figuras/sequence_diagram_visitante.png>
+Package pdftex.def Info: figuras/sequence_diagram_visitante.png  used on input 
+line 90.
+(pdftex.def)             Requested size: 426.79135pt x 198.87888pt.
+) (./capitulos/capitulo4.tex [18 <./figuras/modelo_físico.png>] [19 <./figuras
+/sequence_diagram_gestor.png>] [20 <./figuras/sequence_diagram_system_2.png> <.
+/figuras/sequence_diagram_visitante.png>])
+(./capitulos/capitulo5.tex [21
+
+] [22
 
 ]) (./TP_DBM.bbl (./TP_DBM.brf)
 \tf@brf=\write5
 \openout5 = `TP_DBM.brf'.
 
- [19] [20
+ [23]
+[24
 
 ]
 bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
-) [21] [22
+) [25] [26
 
-] [23] [24] (./apendices/apendice1.tex)
+] [27] [28] (./apendices/apendice1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25
+ [29
 
 ]
-[26] [27
+[30] [31
 
-] [28] (./anexos/anexo1.texpdfTeX warning (ext4): destination with the same ide
+] [32] (./anexos/anexo1.texpdfTeX warning (ext4): destination with the same ide
 ntifier (name{appendix.A}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1125,7 +1186,7 @@ l.1 \chapter{Título do Anexo I}
                                 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
+ [33
 
 ]
 
@@ -1134,7 +1195,7 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 59.
 
-[30]
+[34]
 \tf@toc=\write6
 \openout6 = `TP_DBM.toc'.
 
@@ -1153,19 +1214,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `TP_DBM.out' has not changed.
-(rerunfilecheck)             Checksum: 138C04683D39907C97C8242C7A3D7589;4381.
+(rerunfilecheck)             Checksum: 17AAB4F7AE07C8113FD3CC57FE7ABB8E;4673.
 Package rerunfilecheck Info: File `TP_DBM.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 22616 strings out of 492163
- 383280 string characters out of 6129077
- 750489 words of memory out of 5000000
- 26584 multiletter control sequences out of 15000+600000
+ 22707 strings out of 492163
+ 385465 string characters out of 6129077
+ 750682 words of memory out of 5000000
+ 26651 multiletter control sequences out of 15000+600000
  541792 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,14n,71p,1180b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,14n,71p,1181b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2019/texmf-
@@ -1175,10 +1236,10 @@ ublic/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 c:/texlive/2019/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on TP_DBM.pdf (50 pages, 1217879 bytes).
+Output written on TP_DBM.pdf (54 pages, 1551781 bytes).
 PDF statistics:
- 626 PDF objects out of 1000 (max. 8388607)
- 532 compressed objects within 6 object streams
- 116 named destinations out of 1000 (max. 500000)
- 465 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 690 PDF objects out of 1000 (max. 8388607)
+ 577 compressed objects within 6 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 516 words of extra memory for PDF output out of 10000 (max. 10000000)
 

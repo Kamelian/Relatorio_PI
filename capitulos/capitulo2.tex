@@ -2,11 +2,14 @@
 \chapter{Análise do problema}
 \label{cap2}
 
-%\section{Título de uma seção}
-%\subsection{Título de uma subseção}
-%\subsubsection{Título de parágrafo de texto normal}
+Através da analise de sistemas de tele-assistência, utilizados no mercado actualmente, foi possível estudar o problema em questão, identificando os funcionalidades mais relevantes e os pontos fracos dos sistemas estudos. Na \ref{fig:cenario_global} e apresentada uma visão global do sistema na qual se podem identificar as principais funcionalidades e entidades que interagem com o sistema, assim sendo e possível desta forma apresentar de uma forma simples a interacção entre os actores e o sistema.
 
-INSERIR AQUI TEXTO DE ENCHER CHOURIÇO
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.55\textwidth]{figuras/cenario_global_sistema.png}
+	\caption{Diagrama de casos de uso}
+	\label{fig:cenario_global}
+\end{figure}
 
 \section{As 11 questões da análise de tarefas}
 
@@ -23,10 +26,10 @@ INSERIR AQUI TEXTO DE ENCHER CHOURIÇO
 
 
 \subsection{Que tarefas executam actualmente?}
-Os utilizadores já efectuam e recebem chamadas através de equipamentos montados nas suas residências, conhecem a utilização básica de um botão e compreendem a função do sistema de teleassistência.
+Os utilizadores já efectuam e recebem chamadas através de equipamentos montados nas suas residências, conhecem a utilização básica de um botão e compreendem a função do sistema de tele-assistência.
 
 \subsection{Que tarefas são desejáveis?}
-Activar o botão em casos de emergência, transportar o sistema de teleassistência e ter a capacidade de reportar falsas pedidos de assistência.
+Activar o botão em casos de emergência, transportar o sistema de tele-assistência e ter a capacidade de reportar falsas pedidos de assistência.
 
 \subsection{Como se aprendem as tarefas?}
 O sistema poderá ser apresentado por um familiar/amigo do utilizador que domine este tipo de tecnologia com maior à vontade. E também desejável que sejam realizados um ou mais testes de utilização, de modo a confirmar a usabilidade do sistema e como treino para o utilizador.
@@ -44,7 +47,7 @@ O utilizador tem acesso a sistemas de telecomunicações típicos que se encontr
 Os utilizadores comunicam com os contactos de emergência através de chamada de voz, sendo a chamada realizada por o contacto de emergência após uma notificação electrónica.
 
 \subsection{Qual a frequência de desempenho de tarefas?}
-Sendo este um sistema de teleassistência em casos de emergência, parte-se do princípio que não haverá uma frequência especifica de utilização.
+Sendo este um sistema de tele-assistência em casos de emergência, parte-se do princípio que não haverá uma frequência especifica de utilização.
 
 \subsection{Quais as restrições de tempo impostas?}
 O sistema deverá ser célere na sua resposta uma vez que a sua utilização implica uma situação de emergência. Assim em condições ideais é desejável que as notificações destinadas ao contacto de emergência sejam inferiores a 30 segundos e que a resposta (chamada por parte do contacto de emergência) seja inferior a 5 minutos.
@@ -54,11 +57,11 @@ O sistema irá ser instalado numa unidade autónoma com capacidade de retenção
 
 \section{Cenários do problema}
 
-Todos os cenários terão como actor o Sr. Marques, um idoso que vive sozinho na sua casa. O Sr. Marques sofre de problemas musculares e demonstra inícios de uma doença degenerativa, que lhe afectam a mobilidade. Tendo trabalhado a vida inteira como coveiro num cemitério de minorias étnicas e como produtor de tofu vegano orgânico, possui pouco contacto com sistemas de teleassistência. Devido ao avançado da sua idade, ao falecimento do seu companheiro de vida e o facto de os seus filhos adoptivos não estarem tão presentes quanto necessário, decidiu passar a utilizar um sistema de teleassistência que possa comunicar eficazmente situações de emergência.
+Todos os cenários terão como actor o Sr. Marques, um idoso que vive sozinho na sua casa. O Sr. Marques sofre de problemas musculares e demonstra inícios de uma doença degenerativa, que lhe afectam a mobilidade. Tendo trabalhado a vida inteira como coveiro num cemitério de minorias étnicas e como produtor de tofu vegano orgânico, possui pouco contacto com sistemas de tele-assistência. Devido ao avançado da sua idade, ao falecimento do seu companheiro de vida e o facto de os seus filhos adoptivos não estarem tão presentes quanto necessário, decidiu passar a utilizar um sistema de tele-assistência que possa comunicar eficazmente situações de emergência.
 
 \subsection{Cenário de problema para a tarefa 1 – Reportar uma situação de emergência, através do botão de pânico}
 
-O Sr. Marques devido à sua doença degenerativa possui perdas de memória e momentos de confusão e desorientação. Preocupado com o facto, de num dos seus episódios de confusão, puder ter ingerido uma linguiça de carne de porco em vez do seu tofu vegano orgânico, ficou preocupado que pudesse sofrer uma reacção alérgica. Não sabendo o que fazer e sentindo-se desesperado em não conseguir resolver o caso sozinho, decidiu activar o sistema de teleassistência. Apesar de estar confuso e stressado com a situação, ao olhar para o mesmo verificou que havia apenas um botão vermelho de grandes dimensões. Sem ter grandes dúvidas, pois associou a cor do botão a uma situação de perigo, carregou no mesmo.
+O Sr. Marques devido à sua doença degenerativa possui perdas de memória e momentos de confusão e desorientação. Preocupado com o facto, de num dos seus episódios de confusão, puder ter ingerido uma linguiça de carne de porco em vez do seu tofu vegano orgânico, ficou preocupado que pudesse sofrer uma reacção alérgica. Não sabendo o que fazer e sentindo-se desesperado em não conseguir resolver o caso sozinho, decidiu activar o sistema de tele-assistência. Apesar de estar confuso e stressado com a situação, ao olhar para o mesmo verificou que havia apenas um botão vermelho de grandes dimensões. Sem ter grandes dúvidas, pois associou a cor do botão a uma situação de perigo, carregou no mesmo.
 O sistema activou-se e registou uma situação de emergência assinalada pelo utilizador, despoletando uma notificação electrónica para os contactos de emergência do Sr. Marques.
 Os contactos (que são os seus filhos), rapidamente, telefonaram ao Sr. Marques. Este como não estava incapacitado dirigiu-se ao telefone e atendou. Depois de uma pequena conversa os filhos perceberam a situação e acalmaram o pai, assegurando ao mesmo que ainda que ele tivesse ingerido uma linguiça não havia problema, pois o Sr. Marques não é alérgico à carne de porco.
 
@@ -66,7 +69,7 @@ Os contactos (que são os seus filhos), rapidamente, telefonaram ao Sr. Marques.
 \subsection{Cenário de problema para a tarefa 2 – Detectar uma potencial queda do utilizador}
 
 Devido a possuir dificuldades de locomoção, o Sr. Marques escorregou no chão molhado da sua casa de banho. O Sr. Marques não se conseguia levantar sozinho pois as suas doenças degenerativas afectam-lhe a sua coordenação e capacidades motoras.
-Devido ao facto de viver sozinho, não havia ninguém que tomasse conta do sucedido até a próxima visita de um dos seus familiares. Felizmente uma função no código do sistema de teleassistência detectou, através do seu conjunto de sensores, uma possível queda do utilizador.
+Devido ao facto de viver sozinho, não havia ninguém que tomasse conta do sucedido até a próxima visita de um dos seus familiares. Felizmente uma função no código do sistema de tele-assistência detectou, através do seu conjunto de sensores, uma possível queda do utilizador.
 O sistema registou uma situação de emergência, despoletando automaticamente uma notificação electrónica para os contactos de emergência do Sr. Marques.
 Esses contactos são os seus filhos, que ao receberem a notificação tentaram entrar em contacto com o Pai. O telefone do Sr. Marques tocou insistentemente, mas o estando caído na casa de banho não havia capacidade para o atender. Assim os filhos aperceberam-se que algo se passava e deslocaram-se imediatamente à residência do seu Pai, onde o encontraram caído na casa de banho. 
 
@@ -74,7 +77,7 @@ Esses contactos são os seus filhos, que ao receberem a notificação tentaram e
 \subsection{Cenário de problema para a tarefa 3 – Monitorizar e detectar períodos de imobilização prolongados}
 
 Com o passar do tempo os problemas degenerativos do Sr. Marques foram-se agravando, começando a afectar seriamente o controlo muscular e motor do Sr. Marques. Não era, pois, invulgar que de súbito o Sr. Marques perdesse controlo do seu corpo, ficando num estado de imobilidade involuntária.
-Num desses ataques o Sr. Marques estava sentado na mesa da sua cozinha, onde tinha acabado a sua refeição de Tofu vegano orgânico. Incapaz de se movimentar e não havendo ninguém a quem pudesse requisitar ajuda o Sr. Marques ficou nesta situação durante 30 minutos. O sistema de teleassistência, que estava com o Sr. Marques, através de uma função no seu código verificou que os seus sensores não detectavam alterações na sua posição ou aceleração à um período de 30 minutos. Emitiu por isso um aviso sonoro (através de um buzzer) para sinalizar que tinha verificado uma possível situação de perigo devido a imobilização prolongada. Este aviso servia, para o Sr. Marques mover o aparelho no caso de não se encontrar em perigo. Não possuindo essa capacidade e tendo passado mais 3 minutos sem haver movimentos significativos, o sistema despoletou uma notificação electrónica para os contactos de emergência do Sr. Marques. Os filhos receberam uma notificação electrónica e um link que abria um serviço de visualização de mapas, onde estava descrita a posição do sistema de teleassistência.
+Num desses ataques o Sr. Marques estava sentado na mesa da sua cozinha, onde tinha acabado a sua refeição de Tofu vegano orgânico. Incapaz de se movimentar e não havendo ninguém a quem pudesse requisitar ajuda o Sr. Marques ficou nesta situação durante 30 minutos. O sistema de tele-assistência, que estava com o Sr. Marques, através de uma função no seu código verificou que os seus sensores não detectavam alterações na sua posição ou aceleração à um período de 30 minutos. Emitiu por isso um aviso sonoro (através de um buzzer) para sinalizar que tinha verificado uma possível situação de perigo devido a imobilização prolongada. Este aviso servia, para o Sr. Marques mover o aparelho no caso de não se encontrar em perigo. Não possuindo essa capacidade e tendo passado mais 3 minutos sem haver movimentos significativos, o sistema despoletou uma notificação electrónica para os contactos de emergência do Sr. Marques. Os filhos receberam uma notificação electrónica e um link que abria um serviço de visualização de mapas, onde estava descrita a posição do sistema de teleassistência.
 Os filhos apercebendo-se que o pai estava imobilizado deslocaram-se a casa do mesmo e tentaram ajudá-lo a recuperar os movimentos.
 
 
@@ -88,12 +91,12 @@ O sr. Marques sempre foi um ávido espectador do concurso televisivo “Quem que
 	”A. Milho transgénico;	B. Órgãos de carneiro picado; C. Soja orgânica; D. Tremoços”
 \end{quote}
 
-Tendo a certeza da resposta, o Sr. Marques no ímpeto do seu entusiasmo, clicou sobre o grande botão vermelho do sistema de teleassistência (o qual imaginou como a campainha do jogador) e gritou a plenos pulmões:
+Tendo a certeza da resposta, o Sr. Marques no ímpeto do seu entusiasmo, clicou sobre o grande botão vermelho do sistema de tele-assistência (o qual imaginou como a campainha do jogador) e gritou a plenos pulmões:
 \begin{quote}
 	“RESPOSTA C, é feito com soja orgânica”
 \end{quote}
 
-Apercebendo-se imediatamente de que tinha activado o sistema de teleassistência, o Sr. Marques iniciou os procedimentos para reportar remotamente uma falsa activação. Para tal pressionou o botão vermelho durante 15 segundos, o sistema emitiu dois sinais sonoros consecutivos, sinalizando que havia enviado de seguida uma notificação no qual informava os contactos de que tinha havido uma activação acidental do sistema e que o utilizador havia sinalizado a mesmo como falso positivo. 
+Apercebendo-se imediatamente de que tinha activado o sistema de tele-assistência, o Sr. Marques iniciou os procedimentos para reportar remotamente uma falsa activação. Para tal pressionou o botão vermelho durante 15 segundos, o sistema emitiu dois sinais sonoros consecutivos, sinalizando que havia enviado de seguida uma notificação no qual informava os contactos de que tinha havido uma activação acidental do sistema e que o utilizador havia sinalizado a mesmo como falso positivo. 
 
 \section{Caracterização das tarefas}
 
@@ -132,24 +135,25 @@ elevada abstracção. Os principais casos descritos no âmbito dese trabalho sã
 \end{itemize}
 
 \begin{figure}[!htb]
-		\includegraphics[width=\textwidth]{figuras/diagrama_casos_uso.jpg}
+		\includegraphics[width=\textwidth]{figuras/diagrama_casos_uso.png}
 		\caption{Diagrama de casos de uso}
 		\label{fig:diagrama_casos_uso}
 \end{figure}
 
 \section{Especificação dos casos de uso}
 
-O cenário de utilização normal do sistema permite elaborar e ilustrar um caso de uso numa tabela, na qual são descritos os atributos do caso de uso, sequência e funcionalidades.
+O cenário de utilização normal do sistema permite elaborar e ilustrar um caso de uso numa tabela, na qual são descritos os atributos do caso de uso, sequência e funcionalidades. Na tabela \ref{tab:exemplo_caso_uso}, apresentamos o exemplo do nosso primeiro caso de uso - "adicionar um piquete".
 
-\begin{table}[]
+% usamos o pacote "\usepackage[section]{placeins}" com a opção [h] na tabela para aforçar a ficar na secção a que pertence
+\begin{table}[h]
 	\caption{Exemplo de caso de uso}
 	\label{tab:exemplo_caso_uso}
 	\centering
 \begin{tabular}{
 		|>{\centering\arraybackslash}m{3.5cm}
-		|l
-		|>{\centering\arraybackslash}m{5cm}
-		|>{\centering\arraybackslash}m{5cm}
+		|>{\centering\arraybackslash}m{0.5cm}
+		|>{\arraybackslash}m{5cm}
+		|>{\arraybackslash}m{5cm}
 		|
 	}
 	\hline
@@ -163,23 +167,22 @@ O cenário de utilização normal do sistema permite elaborar e ilustrar um caso
 	\\ \hline
 	\textbf{Pós-condições}                         & \multicolumn{3}{l|}{As informações do piquete passam a estar presentes no sistema.}
 	\\ \hline
-	\multirow{7}{*}{\rotatebox[origin=c]{90}{Sequência de eventos}} & \multicolumn{1}{c||}{}  & \multicolumn{1}{c|}{Input do actor} & \multicolumn{1}{c|}{Resposta do sistema}
+	\multirow{7}{*}{\rotatebox[origin=c]{90}{Sequência de eventos}} & \multicolumn{1}{c|}{}  & \multicolumn{1}{c|}{Input do actor} & \multicolumn{1}{c|}{Resposta do sistema}
 										  \\ \cline{2-4} 
-										  & \multicolumn{1}{c||}{1} & No menu de navegação, que se encontra no topo da página, clicar sobre a opção Piquetes & 
+										  & \multicolumn{1}{c|}{1} & No menu de navegação, que se encontra no topo da página, clicar sobre a opção Piquetes & 
 										  \\ \cline{2-4} 
-										  & \multicolumn{1}{c||}{2} &  & É apresentado a página de piquetes. Nesta página estão os botões “adicionar piquete” e “procurar”, bem como uma lista do piquetes já criados.
+										  & \multicolumn{1}{c|}{2} & &É apresentado a página de piquetes. Nesta página estão os botões “adicionar piquete” e “procurar”, bem como uma lista do piquetes já criados.
 										  \\ \cline{2-4} 
-										  & \multicolumn{1}{c||}{3} & Clicar sobre o botão “adicionar piquete” & 
+										  & \multicolumn{1}{c|}{3} & Clicar sobre o botão “adicionar piquete” & 
 										  \\ \cline{2-4} 
-										  & \multicolumn{1}{c||}{4} &  & É apresentada uma página que contêm os campos “Zona”, “Nome”, “Email”, “Numero” e “Notas”. Existem também os botões “submit” e ”Cancel”
+										  & \multicolumn{1}{c|}{4} &  & É apresentada uma página que contêm os campos “Zona”, “Nome”, “Email”, “Numero” e “Notas”. Existem também os botões “submit” e ”Cancel”
 										  \\ \cline{2-4}
-										  & \multicolumn{1}{c||}{5} & Preencher os campos com a as informações correctas e clicar no botão submit. & 
+										  & \multicolumn{1}{c|}{5} & Preencher os campos com a as informações correctas e clicar no botão submit. & 
 										  \\ \cline{2-4}										  
-										  & \multicolumn{1}{c||}{6} &  & É apresentado, novamente, a página de piquetes. O piquete criado é apresentado no topo da página.
+										  & \multicolumn{1}{c|}{6} &  & É apresentado, novamente, a página de piquetes. O piquete criado é apresentado no topo da página.
 										  \\ \hline
 \end{tabular}
 \end{table}
-
 
 
 
