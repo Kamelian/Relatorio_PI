@@ -2,7 +2,7 @@
 \chapter{Análise do problema}
 \label{cap2}
 
-Através da analise de sistemas de tele-assistência, utilizados no mercado actualmente, foi possível estudar o problema em questão, identificando os funcionalidades mais relevantes e os pontos fracos dos sistemas estudos. Na \ref{fig:cenario_global} e apresentada uma visão global do sistema na qual se podem identificar as principais funcionalidades e entidades que interagem com o sistema, assim sendo e possível desta forma apresentar de uma forma simples a interacção entre os actores e o sistema.
+Através da analise de sistemas de tele-assistência, utilizados actualmente no mercado, foi possível estudar o problema em questão, identificando as funcionalidades mais relevantes e os pontos fracos dos sistemas estudos. Na \ref{fig:cenario_global} é apresentada uma visão global do sistema na qual se podem identificar as principais funcionalidades e entidades que interagem com o sistema, assim sendo e possível desta forma apresentar de uma forma simples a interacção entre os actores e o sistema.
 
 \begin{figure}[!htb]
 	\centering
@@ -98,19 +98,6 @@ Tendo a certeza da resposta, o Sr. Marques no ímpeto do seu entusiasmo, clicou 
 
 Apercebendo-se imediatamente de que tinha activado o sistema de tele-assistência, o Sr. Marques iniciou os procedimentos para reportar remotamente uma falsa activação. Para tal pressionou o botão vermelho durante 15 segundos, o sistema emitiu dois sinais sonoros consecutivos, sinalizando que havia enviado de seguida uma notificação no qual informava os contactos de que tinha havido uma activação acidental do sistema e que o utilizador havia sinalizado a mesmo como falso positivo. 
 
-\section{Caracterização das tarefas}
-
-Tendo em vista a criação do sistema desde raiz, torna-se necessário ter atenção a dois conjuntos de tarefas, as que envolvem a gestão do sistema e as que envolvem a utilização do hardware. A gestão do sistema é necessariamente anterior à utilização do sistema.
-\begin{itemize}
-	\item\textbf{Criação de um piquete -} O gestor do sistema deve criar um, ou mais, entidades que recebem os avisos de ocorrências (piquete) por parte do sistema. A esta entidade deve estar associado uma séria de informações que garantam a capacidade de contacto. 
-	
-	\item\textbf{Reportar uma ocorrência manualmente-} Uma ocorrência pode ser reportada pelo utilizador, de modo consciente, através do pulsar de um botão de pânico que está associado ao sistema.
-	
-	\item\textbf{Reportar uma ocorrência automaticamente-} Uma ocorrência pode também ser reportada sem acção consciente do utilizador, através dos sensores associados ao sistema. 
-	
-	\item\textbf{Receber o aviso de uma ocorrência - }
-\end{itemize}
-
 \section{Caracterização dos actores}
 
 O sistema vai funcionar com base em três tipos de actores.
@@ -123,15 +110,29 @@ O sistema vai funcionar com base em três tipos de actores.
 	\item\textbf{Piquete - }Tem como função receber os avisos das ocorrências e prestar o auxílio necessário. Pode-se dizer que no âmbito do sistema a desenvolver, este será o actor mais passivo, uma vez que a sua única função é responder ao sistema.
 \end{itemize}
 
+\section{Caracterização das tarefas}
+
+Tendo em vista a criação do sistema desde raiz, torna-se necessário ter atenção a dois conjuntos de tarefas, as que envolvem a gestão do sistema e as que envolvem a utilização do hardware. A gestão do sistema é necessariamente anterior à utilização do sistema.
+\begin{itemize}
+	\item\textbf{Criação de um piquete -} O gestor do sistema deve criar um, ou mais, entidades que recebem os avisos de ocorrências (piquete) por parte do sistema. A esta entidade deve estar associado uma séria de informações que garantam a capacidade de contacto. 
+	
+	\item\textbf{Reportar uma ocorrência manualmente -} Uma ocorrência pode ser reportada pelo utilizador, de modo consciente, através do pulsar de um botão de pânico que está associado ao sistema.
+	
+	\item\textbf{Reportar uma ocorrência automaticamente -} Uma ocorrência pode também ser reportada sem acção consciente do utilizador, através dos sensores associados ao sistema. 
+	
+	\item\textbf{Receber o aviso de uma ocorrência -} O piquete que se encontre na zona da ocorrência recebe automaticamente um aviso electrónico.
+	
+\end{itemize}
+
 \section{Diagramas de casos de uso}
 
 Para descrever os principais casos de uso do sistema, utilizou-se o diagrama de casos de uso presente na \ref{fig:diagrama_casos_uso}. Podemos observar nesta figura a interacção entre elementos do sistema num contexto de
 elevada abstracção. Os principais casos descritos no âmbito dese trabalho são:
 \begin{itemize}
-	\item Adicionar piquete, por parte do actor 2
-	\item Utilização do botão de SOS, por parte do actor 1
-	\item Detecção de queda,m por parte do actor 1
-	\item envio de um alerta de ocorrência para o actor 3
+	\item Adicionar piquete, por parte do gestor do sistema;
+	\item Utilização do botão de SOS, por parte do utente do sistema;
+	\item Detecção de queda do utente do sistema;
+	\item Envio de um alerta de ocorrência para o piquete;
 \end{itemize}
 
 \begin{figure}[!htb]
@@ -156,6 +157,7 @@ O cenário de utilização normal do sistema permite elaborar e ilustrar um caso
 		|>{\arraybackslash}m{5cm}
 		|
 	}
+%\begin{tabular}{|>{\centering\arraybackslash}m{3.5cm} |m{0.5cm}	|m{5cm}	| m{5cm} | }
 	\hline
 	\textbf{Caso de uso}                           & \multicolumn{3}{l|}{Adicionar piquete.}
 	\\ \hline

@@ -39,6 +39,7 @@ pagebackref, % Adds ‘backlink’ text to the end of each item
 \RequirePackage{booktabs}
 \RequirePackage{multirow}
 \RequirePackage[section]{placeins}
+\RequirePackage{array}
 \RequirePackage{censor}
 
 
