@@ -7,27 +7,28 @@ Os modelos propostos de interfaces com o utilizador, base de dados, classes e di
 \section{Modelação de interfaces}
 
 Para o desenvolvimento das interfaces foram utilizados vários modelos, permitindo assim perceber de forma genérica as sequências de acções de navegação do utilizador. A figura \ref{fig:diagrama_arvore} representa uma árvore na qual podemos observar as páginas do portal e entender qual a ligação entre as diversas páginas utilizadas no portal.
+É nossa intenção manter a simplicidade na estrutura do portal.
 
-\begin{figure}[!htb]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=\textwidth]{figuras/diagrama_arvore.png}
 	\caption{Árvore de navegação no portal}
 	\label{fig:diagrama_arvore}
 \end{figure}
 
-\subsection{Storyboard de navegação}
+\FloatBarrier\subsection{Storyboard de navegação}
 
 %Desenhos das paginas principais do frontend
 
-\subsection{Interface do caso de uso 1}
+\FloatBarrier\subsection{Interface do caso de uso 1}
 
 %desenhos que descrevem a sequencia do casos de uso 1
 
-\section{Modelação da base de dados}
+\FloatBarrier\section{Modelação da base de dados}
 
 A modelação da base de dados é fundamental para a implementação do sistema de forma correcta, o seu estudo e desenvolvimento são apresentados nos pontos seguintes e a forma como as entidades e classes estão relacionadas permite uma analise da complexidade do sistema, assim sendo, foi possível gerir a complexidade do modelo da base de dados de forma rigorosa. Em seguida são descritos os modelos E/R e físico da base de dados.
 
-\subsection{Modelo Entidade-Relação}
+\FloatBarrier\subsection{Modelo Entidade-Relação}
 
 A figura \ref{fig:Modelo_E/R} permite observar as relações entre as diversas entidades da base de dados. Através deste diagrama simplificado podemos visualizar as diversas acções que podem ser realizadas sobre o sistema.
 
@@ -38,7 +39,7 @@ A figura \ref{fig:Modelo_E/R} permite observar as relações entre as diversas e
 	\label{fig:Modelo_E/R}
 \end{figure}
 
-\subsection{Modelo Físico}
+\FloatBarrier\subsection{Modelo Físico}
 
 O modelo físico, apresentado na figura \ref{fig:Modelo_fisico} complementa o modelo entidade-relação, especificando também os atributos de cada uma das tabelas.
 
@@ -49,13 +50,21 @@ O modelo físico, apresentado na figura \ref{fig:Modelo_fisico} complementa o mo
 	\label{fig:Modelo_fisico}
 \end{figure}
 
-\section{Modelação UML}
+\FloatBarrier\section{Modelação UML}
+
+Através da linguagem de modelação unificada (UML) conseguimos representar de uma forma mais padronizada o nosso sistema. Esta linguagem é essencial pois permitiu compreender mais facilmente os passos necessários para a implementação do desenho.
+
+\FloatBarrier\subsection{Diagrama de classes}
+
+A figura \ref{fig:diagrama_classes} representa o diagrama de classes desenvolvido através da fase de desenho. é ainda de salientar que devido à natureza do nosso projecto existem dois elementos diferentes, o dispositivo móvel e o portal. Ambos foram desenhados como se fossem sistemas separados pois possuem as suas classes devidamente independentes.
 
 
-
-\subsection{Diagrama de classes}
-
-modelo físico mais avançado
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\textwidth]{figuras/diagrama_classes.png}
+	\caption{Diagrama de classes}
+	\label{fig:diagrama_classes}
+\end{figure}
 
 \begin{figure}[!htb]
 	\centering
@@ -71,9 +80,9 @@ modelo físico mais avançado
 	\label{fig:fluxograma_portal}
 \end{figure}
 
-\subsection{Diagrama de sequência}
+\FloatBarrier\subsection{Diagrama de sequência}
 
-\subsection{Diagrama de sequência do caso de uso ...(ADICIONAR PIQUETE)}
+\FloatBarrier\subsection{Diagrama de sequência do caso de uso ...(ADICIONAR PIQUETE)}
 
 
 
@@ -84,7 +93,7 @@ modelo físico mais avançado
 	\label{fig:sequência_gestor}
 \end{figure}
 
-\subsection{Diagrama de sequência do caso de uso ...(DETECÇÃO DE QUEDA)}
+\FloatBarrier\subsection{Diagrama de sequência do caso de uso ...(DETECÇÃO DE QUEDA)}
 
 
 
@@ -95,7 +104,7 @@ modelo físico mais avançado
 	\label{fig:sequência_sistema}
 \end{figure}
 
-\subsection{Diagrama de sequência do caso de uso ...(VISITANTE)}
+\FloatBarrier\subsection{Diagrama de sequência do caso de uso ...(VISITANTE)}
 
 
 

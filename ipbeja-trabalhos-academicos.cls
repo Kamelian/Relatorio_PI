@@ -40,6 +40,8 @@ pagebackref, % Adds ‘backlink’ text to the end of each item
 \RequirePackage{multirow}
 \RequirePackage[section]{placeins}
 \RequirePackage{array}
+\RequirePackage{float} % provides the H option to floating environments, which completely stops them from floating
+\RequirePackage[section]{placeins} % provides the command \FloatBarrier, which can be used to prevent floats from being moved over it. This can, e.g., be useful at the beginning of each section. The package even provides an option to change the definition of \section to automatically include a \FloatBarrier. This can be set by loading the package with the option [section] (\usepackage[section]{placeins}). \FloatBarrier may also be useful to prevent floats intruding on lists created using itemize or enumerate. 
 \RequirePackage{censor}
 
 
