@@ -18,88 +18,92 @@ Para o desenvolvimento das interfaces foram utilizados vários modelos, permitin
 
 \FloatBarrier\subsection{Storyboard de navegação}
 
-
-%\begin{table}[]
-%	\begin{tabular}{cc}
-%	text	& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_0.jpg} \\
-%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_1.jpg} \\
-%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_2.jpg} \\
-%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_3.jpg} \\
-%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_4.jpg} \\
-%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_5.jpg} \\
-%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_6.jpg}
-%	\end{tabular}
-%\end{table}
-
 Apresentamos de seguida uma série de desenhos de baixa fidelidade, em papel, que tentam mostrar as informações e estrutura do portal.
-A figura \ref{fig:inicio} representa a página inicial do portal, onde é possível aceder Às opções login e visualizar a página de novidades. A navegação será sempre realizada por um menu horizontal com hiperligações no topo da página. A localização será sempre dada pelo título da página aberta no explorador.
 
+\FloatBarrier
+A figura \ref{fig:inicio} representa a página inicial do portal, onde é possível aceder Às opções login e visualizar a página de novidades. A navegação será sempre realizada por um menu horizontal com hiperligações no topo da página. A localização será sempre dada pelo título da página aberta no explorador.
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_0.jpg}
+	\includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_0.jpg}
 	\caption{Desenho de baixa fidelidade da página inicial do portal}
 	\label{fig:inicio}
 \end{figure}
 
+\FloatBarrier
 A figura \ref{fig:login} representa a página de login, onde apenas existem campos de texto para inserir as credenciais de autenticação e o o botão de submissão. Mais uma vez a barra de navegação encontra-se no topo do ecrã.
-
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_1.jpg}
+	\includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_1.jpg}
 	\caption{Desenho de baixa fidelidade da página de login}
 	\label{fig:login}
 \end{figure}
 
+\FloatBarrier
 A figura \ref{fig:novidades} representa a página para a qual um utilizador é levado após o login. Esta página é também acessível a utilizadores não registados. Aqui são apresentadas pequenas noticias ou informações importante relacionadas com o sistemas. Todas estas informações são da responsabilidade do gestor do sistema.
-
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_2.jpg}
+	\includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_2.jpg}
 	\caption{Desenho de baixa fidelidade da página novidades}
 	\label{fig:novidades}
 \end{figure}
 
-A figura \ref{fig:ocorrencias} representa a página de ocorrências, onde estão listadas as ocorrências enviadas pelos dispositivos móveis que estão ligado ao portal. A lista é apresentada sob a forma de feed, onde é possível alterar o estado da ocorrência, de modo a assinalar a mesma como resolvida ou não resolvida, ver os detalhes da ocorrência e apagá-la. esta ultima opção poderá estar apenas presente nas versões de teste, pois é útil nesta fase.
+\FloatBarrier
+A figura \ref{fig:adicionar_novidades} representa a página na qual é possível adicionar uma novidade. A novidade é uma mensagem com informação importante para os utilizadores do sistema. Será sempre constituída por um título e mensagem, tendo ainda possibilidade de inserir um link externo.  
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_3.jpg}
+	\caption{Desenho de baixa fidelidade da página adicionar novidades}
+	\label{fig:adicionar_novidades}
+\end{figure}
 
+\FloatBarrier
+A figura \ref{fig:ocorrencias} representa a página de ocorrências, onde estão listadas as ocorrências enviadas pelos dispositivos móveis que estão ligado ao portal. A lista é apresentada sob a forma de feed, onde é possível alterar o estado da ocorrência, de modo a assinalar a mesma como resolvida ou não resolvida, ver os detalhes da ocorrência e apagá-la. esta ultima opção poderá estar apenas presente nas versões de teste, pois é útil nesta fase.
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_3.jpg}
+\includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_4.jpg}
 \caption{Desenho de baixa fidelidade da página ocorrências}
 \label{fig:ocorrencias}
 \end{figure}
 
-A figura \ref{fig:ocorrencias} representa a página de ocorrências com os detalhes de uma ocorrência observáveis. Estas informações são uma mistura de dados enviados pelo dispositivo móvel (data, zona, localização e tipo de sensor activado) e dados já processados pelo portal, uma vez que é este que adiciona o mapa com localização e os números de contacto dos piquetes.
-
+\FloatBarrier
+A figura \ref{fig:ocorrência_detalhes} representa a página de ocorrências com os detalhes de uma ocorrência observáveis. Estas informações são uma mistura de dados enviados pelo dispositivo móvel (data, zona, localização e tipo de sensor activado) e dados já processados pelo portal, uma vez que é este que adiciona o mapa com localização e os números de contacto dos piquetes.
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_4.jpg}
+	\includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_5.jpg}
 	\caption{Desenho de baixa fidelidade da página de detalhes de ocorrência}
 	\label{fig:ocorrência_detalhes}
 \end{figure}
 
-A figura \ref{fig:ocorrência_detalhes} representa a página de piquetes onde é possível gerir os piquetes já criados, bem como adicionar novos.
-
+\FloatBarrier
+A figura \ref{fig:piquetes} representa a página de piquetes onde é possível gerir os piquetes já criados, bem como adicionar novos.
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_5.jpg}
+	\includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_6.jpg}
 	\caption{Desenho de baixa fidelidade da página piquetes}
 	\label{fig:piquetes}
 \end{figure}
 
-A figura \ref{fig:ocorrencias} representa a página de utilizadores
-
+\FloatBarrier
+A figura \ref{fig:adicionar_piquetes} representa a página na qual é possível adicionar um piquete. Para tal é necessário preencher os campos de texto com a zona de acção do piquete, nome, email e números de contacto. Será ainda possível adicionar notas sobre o piquete que vamos criar.
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_6.jpg}
+	\includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_7.jpg}
+	\caption{Desenho de baixa fidelidade da página adicionar piquetes}
+	\label{fig:adicionar_piquetes}
+\end{figure}
+
+\FloatBarrier
+A figura \ref{fig:utilizadores} representa a página de utilizadores
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_8.jpg}
 	\caption{Desenho de baixa fidelidade da página utilizadores}
 	\label{fig:utilizadores}
 \end{figure}
 
-
-
-\FloatBarrier\subsection{Interface do caso de uso 1}
-
-%desenhos que descrevem a sequencia do casos de uso 1
+%\FloatBarrier\subsection{Interface do caso de uso 1}
+%
+%%desenhos que descrevem a sequencia do casos de uso 1
 
 \FloatBarrier\section{Modelação da base de dados}
 
@@ -170,35 +174,31 @@ A figura \ref{fig:fluxograma_portal} descreve as operações do portal. Este ao 
 
 \FloatBarrier\subsection{Diagrama de sequência}
 
-\FloatBarrier\subsection{Diagrama de sequência do caso de uso ...(ADICIONAR PIQUETE)}
+Os diagramas de sequência servem para demonstrar o funcionamento e interacção entre as classes e os actores. Estes diagrama ajudam-nos a visualizar e validar cenários de utilização, podendo assim ter uma melhor visão do modelo que estamos a criar e ter a possibilidade de prever falhas e comportamentos anómalos.
 
-
+\FloatBarrier\subsection{Cenário 'adicionar piquete'}
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\textwidth]{figuras/sequence_diagram_gestor.png}
-	\caption{Diagrama de sequência para ...}
+	\caption{Diagrama de sequência para o cenário adicionar piquete}
 	\label{fig:sequência_gestor}
 \end{figure}
 
-\FloatBarrier\subsection{Diagrama de sequência do caso de uso ...(DETECÇÃO DE QUEDA)}
-
-
+\FloatBarrier\subsection{Cenário 'detecção de queda'}
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\textwidth]{figuras/sequence_diagram_system_2.png}
-	\caption{Diagrama de sequência para ...}
+	\caption{Diagrama de sequência para o cenário detecção de queda}
 	\label{fig:sequência_sistema}
 \end{figure}
 
-\FloatBarrier\subsection{Diagrama de sequência do caso de uso ...(VISITANTE)}
-
-
+\FloatBarrier\subsection{Cenário 'VISITANTE'}
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\textwidth]{figuras/sequence_diagram_visitante.png}
 	\caption{Diagrama de sequência para ...}
-	\label{fig:sequência_visitamte}
+	\label{fig:sequência_visitante}
 \end{figure}

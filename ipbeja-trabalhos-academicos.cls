@@ -39,6 +39,7 @@ pagebackref, % Adds ‘backlink’ text to the end of each item
 \RequirePackage[official]{eurosym}
 \RequirePackage{booktabs}
 \RequirePackage{multirow}
+\RequirePackage{longtable}
 \RequirePackage[section]{placeins}
 \RequirePackage{array}
 \RequirePackage{float} % provides the H option to floating environments, which completely stops them from floating

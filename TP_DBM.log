@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.2)  15 JAN 2020 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.2)  15 JAN 2020 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -842,16 +842,34 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@dima=\skip193
 \bigstrutjot=\dimen273
 )
+(c:/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
+\LTleft=\skip194
+\LTright=\skip256
+\LTpre=\skip257
+\LTpost=\skip258
+\LTchunksize=\count330
+\LTcapwidth=\dimen274
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@cols=\count331
+\LT@rows=\count332
+\c@LT@tables=\count333
+\c@LT@chunks=\count334
+\LT@p@ftn=\toks30
+)
 (c:/texlive/2019/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 (c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count330
-\float@exts=\toks30
-\float@box=\box56
-\@float@everytoks=\toks31
-\@floatcapt=\box57
+\c@float@type=\count335
+\float@exts=\toks31
+\float@box=\box60
+\@float@everytoks=\toks32
+\@floatcapt=\box61
 )
 (c:/texlive/2019/texmf-dist/tex/latex/censor/censor.sty
 Package: censor 2018/11/15 3.22Provides capability for redaction of sensitive i
@@ -862,29 +880,29 @@ Package: pbox 2011/12/07 v1.2 Dynamic parboxes
 
 (c:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count331
-\calc@Bcount=\count332
-\calc@Adimen=\dimen274
-\calc@Bdimen=\dimen275
-\calc@Askip=\skip194
-\calc@Bskip=\skip256
+\calc@Acount=\count336
+\calc@Bcount=\count337
+\calc@Adimen=\dimen275
+\calc@Bdimen=\dimen276
+\calc@Askip=\skip259
+\calc@Bskip=\skip260
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count333
-\calc@Cskip=\skip257
+\calc@Ccount=\count338
+\calc@Cskip=\skip261
 )
-\pb@xlen=\skip258
+\pb@xlen=\skip262
 )
 (c:/texlive/2019/texmf-dist/tex/latex/ifnextok/ifnextok.sty
 Package: ifnextok 2011/06/27 v0.3 test next token (UL)
 )
-\censorruledepth=\skip259
-\censorruleheight=\skip260
-\periodrlap=\skip261
-\afterperiodlap=\skip262
-\lletterlap=\skip263
-\rletterlap=\skip264
-\afterspacelap=\skip265
+\censorruledepth=\skip263
+\censorruleheight=\skip264
+\periodrlap=\skip265
+\afterperiodlap=\skip266
+\lletterlap=\skip267
+\rletterlap=\skip268
+\afterspacelap=\skip269
 ))
 (./info-para-preencher.tex) (./TP_DBM.aux)
 \openout1 = `TP_DBM.aux'.
@@ -940,17 +958,17 @@ LaTeX Font Info:    ... okay on input line 10.
 
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count334
-\scratchdimen=\dimen276
-\scratchbox=\box58
-\nofMPsegments=\count335
-\nofMParguments=\count336
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count337
-\MPscratchDim=\dimen277
-\MPnumerator=\count338
-\makeMPintoPDFobject=\count339
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count339
+\scratchdimen=\dimen277
+\scratchbox=\box62
+\nofMPsegments=\count340
+\nofMParguments=\count341
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count342
+\MPscratchDim=\dimen278
+\MPnumerator=\count343
+\makeMPintoPDFobject=\count344
+\everyMPtoPDFconversion=\toks34
 ) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -960,7 +978,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box59
+\AtBeginShipoutBox=\box63
 Package hyperref Info: Link coloring OFF on input line 10.
 
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -972,7 +990,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (c:/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count340
+\c@section@level=\count345
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -984,8 +1002,8 @@ LaTeX Info: Redefining \nameref on input line 10.
 \@outlinefile=\write4
 \openout4 = `TP_DBM.out'.
 
-\c@lstlisting=\count341
-<logos/logo-ipbeja.pdf, id=224, 646.415pt x 499.8675pt>
+\c@lstlisting=\count346
+<logos/logo-ipbeja.pdf, id=220, 646.415pt x 499.8675pt>
 File: logos/logo-ipbeja.pdf Graphic file (type pdf)
 <use logos/logo-ipbeja.pdf>
 Package pdftex.def Info: logos/logo-ipbeja.pdf  used on input line 13.
@@ -1002,7 +1020,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<logos/logo-estig.pdf, id=225, 845.0471pt x 597.50829pt>
+<logos/logo-estig.pdf, id=221, 845.0471pt x 597.50829pt>
 File: logos/logo-estig.pdf Graphic file (type pdf)
 <use logos/logo-estig.pdf>
 Package pdftex.def Info: logos/logo-estig.pdf  used on input line 13.
@@ -1038,7 +1056,7 @@ Overfull \hbox (3.53766pt too wide) detected at line 7
 Class memoir Warning: The material used in the headers is too large
 (15.71669pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 59.
+(in both cases you will find help in the memoir manual). on input line 60.
 
 
 Overfull \vbox (1.21669pt too high) has occurred while \output is active []
@@ -1063,19 +1081,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 ]
-<figuras/Sistemas_alert_Alarm_Australia.jpg, id=464, 58.71938pt x 75.28125pt>
+<figuras/Sistemas_alert_Alarm_Australia.jpg, id=461, 58.71938pt x 75.28125pt>
 File: figuras/Sistemas_alert_Alarm_Australia.jpg Graphic file (type jpg)
 <use figuras/Sistemas_alert_Alarm_Australia.jpg>
 Package pdftex.def Info: figuras/Sistemas_alert_Alarm_Australia.jpg  used on in
 put line 23.
 (pdftex.def)             Requested size: 85.35826pt x 109.43413pt.
-<figuras/Sistemas_MedicalAlert.png, id=465, 289.83281pt x 429.85594pt>
+<figuras/Sistemas_MedicalAlert.png, id=462, 289.83281pt x 429.85594pt>
 File: figuras/Sistemas_MedicalAlert.png Graphic file (type png)
 <use figuras/Sistemas_MedicalAlert.png>
 Package pdftex.def Info: figuras/Sistemas_MedicalAlert.png  used on input line 
 29.
 (pdftex.def)             Requested size: 85.35826pt x 126.59651pt.
-<figuras/Sistemas_Bluestar.png, id=466, 188.3838pt x 188.3838pt>
+<figuras/Sistemas_Bluestar.png, id=463, 188.3838pt x 188.3838pt>
 File: figuras/Sistemas_Bluestar.png Graphic file (type png)
 <use figuras/Sistemas_Bluestar.png>
 Package pdftex.def Info: figuras/Sistemas_Bluestar.png  used on input line 35.
@@ -1085,12 +1103,12 @@ Underfull \hbox (badness 1297) in paragraph at lines 36--36
 []\OT1/cmr/bx/n/12 Figura 1.3: []\OT1/cmr/m/n/12 Admiral
  []
 
-<figuras/Sistemas_Lifeline.png, id=470, 226.446pt x 185.0112pt>
+<figuras/Sistemas_Lifeline.png, id=467, 226.446pt x 185.0112pt>
 File: figuras/Sistemas_Lifeline.png Graphic file (type png)
 <use figuras/Sistemas_Lifeline.png>
 Package pdftex.def Info: figuras/Sistemas_Lifeline.png  used on input line 47.
 (pdftex.def)             Requested size: 174.13245pt x 142.26378pt.
-<figuras/sistemas_Medical_Alert_System.png, id=471, 224.037pt x 224.037pt>
+<figuras/sistemas_Medical_Alert_System.png, id=468, 224.037pt x 224.037pt>
 File: figuras/sistemas_Medical_Alert_System.png Graphic file (type png)
 <use figuras/sistemas_Medical_Alert_System.png>
 Package pdftex.def Info: figuras/sistemas_Medical_Alert_System.png  used on inp
@@ -1136,7 +1154,7 @@ feline.png> <./figuras/sistemas_Medical_Alert_System.png>]
 (./capitulos/capitulo2.tex [4
 
 ]
-<figuras/cenario_global_sistema.png, id=491, 311.66437pt x 372.64218pt>
+<figuras/cenario_global_sistema.png, id=488, 311.66437pt x 372.64218pt>
 File: figuras/cenario_global_sistema.png Graphic file (type png)
 <use figuras/cenario_global_sistema.png>
 Package pdftex.def Info: figuras/cenario_global_sistema.png  used on input line
@@ -1169,7 +1187,7 @@ Overfull \hbox (14.07066pt too wide) in paragraph at lines 121--122
  []
 
 [11]
-<figuras/diagrama_casos_uso.png, id=530, 1009.52156pt x 563.10374pt>
+<figuras/diagrama_casos_uso.png, id=527, 1009.52156pt x 563.10374pt>
 File: figuras/diagrama_casos_uso.png Graphic file (type png)
 <use figuras/diagrama_casos_uso.png>
 Package pdftex.def Info: figuras/diagrama_casos_uso.png  used on input line 139
@@ -1223,7 +1241,7 @@ Underfull \vbox (badness 1490) has occurred while \output is active []
                                                   \fi \fi 
 l.206 
       ]) (./capitulos/capitulo3.tex [14]
-<figuras/diagrama_arvore.png, id=547, 2067.725pt x 1726.45pt>
+<figuras/diagrama_arvore.png, id=544, 2067.725pt x 1726.45pt>
 File: figuras/diagrama_arvore.png Graphic file (type png)
 <use figuras/diagrama_arvore.png>
 Package pdftex.def Info: figuras/diagrama_arvore.png  used on input line 14.
@@ -1235,241 +1253,263 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [15
 
 ]
-<figuras/storyboard/frame_0.jpg, id=553, 963.6pt x 673.01437pt>
+<figuras/storyboard/frame_0.jpg, id=550, 963.6pt x 673.01437pt>
 File: figuras/storyboard/frame_0.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_0.jpg>
-Package pdftex.def Info: figuras/storyboard/frame_0.jpg  used on input line 39.
+Package pdftex.def Info: figuras/storyboard/frame_0.jpg  used on input line 27.
 
-(pdftex.def)             Requested size: 128.0387pt x 89.42557pt.
-<figuras/storyboard/frame_1.jpg, id=555, 963.6pt x 673.01437pt>
-File: figuras/storyboard/frame_1.jpg Graphic file (type jpg)
-<use figuras/storyboard/frame_1.jpg>
-Package pdftex.def Info: figuras/storyboard/frame_1.jpg  used on input line 48.
-
-(pdftex.def)             Requested size: 128.0387pt x 89.42557pt.
-
-Underfull \vbox (badness 1546) has occurred while \output is active []
-
+(pdftex.def)             Requested size: 213.39568pt x 149.0392pt.
  [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.54 
-      <./figuras/diagrama_arvore.png>]
-<figuras/storyboard/frame_2.jpg, id=562, 963.6pt x 673.01437pt>
+l.32 \FloatBarrier
+                   <./figuras/diagrama_arvore.png>]
+<figuras/storyboard/frame_1.jpg, id=557, 963.6pt x 673.01437pt>
+File: figuras/storyboard/frame_1.jpg Graphic file (type jpg)
+<use figuras/storyboard/frame_1.jpg>
+Package pdftex.def Info: figuras/storyboard/frame_1.jpg  used on input line 36.
+
+(pdftex.def)             Requested size: 213.39568pt x 149.0392pt.
+<figuras/storyboard/frame_2.jpg, id=559, 963.6pt x 673.01437pt>
 File: figuras/storyboard/frame_2.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_2.jpg>
-Package pdftex.def Info: figuras/storyboard/frame_2.jpg  used on input line 57.
+Package pdftex.def Info: figuras/storyboard/frame_2.jpg  used on input line 45.
 
-(pdftex.def)             Requested size: 128.0387pt x 89.42557pt.
-<figuras/storyboard/frame_3.jpg, id=564, 963.6pt x 681.29532pt>
-File: figuras/storyboard/frame_3.jpg Graphic file (type jpg)
-<use figuras/storyboard/frame_3.jpg>
-Package pdftex.def Info: figuras/storyboard/frame_3.jpg  used on input line 66.
-
-(pdftex.def)             Requested size: 128.0387pt x 90.5259pt.
-<figuras/storyboard/frame_4.jpg, id=566, 963.6pt x 624.08156pt>
-File: figuras/storyboard/frame_4.jpg Graphic file (type jpg)
-<use figuras/storyboard/frame_4.jpg>
-Package pdftex.def Info: figuras/storyboard/frame_4.jpg  used on input line 75.
-
-(pdftex.def)             Requested size: 128.0387pt x 82.9237pt.
+(pdftex.def)             Requested size: 213.39568pt x 149.0392pt.
  [17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.81 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.3}) has been already used, duplicate ignored
+l.50 \FloatBarrier
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.81 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.4}) has been already used, duplicate ignored
+l.50 \FloatBarrier
+                   <./figuras/storyboard/frame_0.jpg> <./figuras/storyboard/fra
+me_1.jpg>]
+<figuras/storyboard/frame_3.jpg, id=566, 963.6pt x 687.31781pt>
+File: figuras/storyboard/frame_3.jpg Graphic file (type jpg)
+<use figuras/storyboard/frame_3.jpg>
+Package pdftex.def Info: figuras/storyboard/frame_3.jpg  used on input line 54.
+
+(pdftex.def)             Requested size: 213.39568pt x 152.20671pt.
+<figuras/storyboard/frame_4.jpg, id=568, 963.6pt x 681.29532pt>
+File: figuras/storyboard/frame_4.jpg Graphic file (type jpg)
+<use figuras/storyboard/frame_4.jpg>
+Package pdftex.def Info: figuras/storyboard/frame_4.jpg  used on input line 63.
+
+(pdftex.def)             Requested size: 213.39568pt x 150.87302pt.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.81 
-      <./figuras/storyboard/frame_0.jpg> <./figuras/storyboard/frame_1.jpg> <./
-figuras/storyboard/frame_2.jpg>]
-<figuras/storyboard/frame_5.jpg, id=573, 963.6pt x 671.50874pt>
+l.68 \FloatBarrier
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.3.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.68 \FloatBarrier
+                   <./figuras/storyboard/frame_2.jpg> <./figuras/storyboard/fra
+me_3.jpg>]
+<figuras/storyboard/frame_5.jpg, id=574, 963.6pt x 624.08156pt>
 File: figuras/storyboard/frame_5.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_5.jpg>
-Package pdftex.def Info: figuras/storyboard/frame_5.jpg  used on input line 84.
+Package pdftex.def Info: figuras/storyboard/frame_5.jpg  used on input line 72.
 
-(pdftex.def)             Requested size: 128.0387pt x 89.22551pt.
-<figuras/storyboard/frame_6.jpg, id=575, 963.6pt x 685.8122pt>
+(pdftex.def)             Requested size: 213.39568pt x 138.20302pt.
+<figuras/storyboard/frame_6.jpg, id=576, 963.6pt x 671.50874pt>
 File: figuras/storyboard/frame_6.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_6.jpg>
-Package pdftex.def Info: figuras/storyboard/frame_6.jpg  used on input line 93.
+Package pdftex.def Info: figuras/storyboard/frame_6.jpg  used on input line 81.
 
-(pdftex.def)             Requested size: 128.0387pt x 91.12607pt.
- [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.107 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.6}) has been already used, duplicate ignored
+(pdftex.def)             Requested size: 213.39568pt x 148.70578pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.107 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.7}) has been already used, duplicate ignored
+l.86 \FloatBarrier
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.3.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.107 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.8}) has been already used, duplicate ignored
+l.86 \FloatBarrier
+                   <./figuras/storyboard/frame_4.jpg> <./figuras/storyboard/fra
+me_5.jpg>]
+<figuras/storyboard/frame_7.jpg, id=583, 963.6pt x 681.29532pt>
+File: figuras/storyboard/frame_7.jpg Graphic file (type jpg)
+<use figuras/storyboard/frame_7.jpg>
+Package pdftex.def Info: figuras/storyboard/frame_7.jpg  used on input line 90.
+
+(pdftex.def)             Requested size: 213.39568pt x 150.87302pt.
+<figuras/storyboard/frame_8.jpg, id=585, 963.6pt x 685.8122pt>
+File: figuras/storyboard/frame_8.jpg Graphic file (type jpg)
+<use figuras/storyboard/frame_8.jpg>
+Package pdftex.def Info: figuras/storyboard/frame_8.jpg  used on input line 99.
+
+(pdftex.def)             Requested size: 213.39568pt x 151.87329pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.107 
-       <./figuras/storyboard/frame_3.jpg> <./figuras/storyboard/frame_4.jpg> <.
-/figuras/storyboard/frame_5.jpg> <./figuras/storyboard/frame_6.jpg>]
-<figuras/diagrama_e-r.png, id=582, 793.96625pt x 869.2475pt>
+l.108 \FloatBarrier
+                   \section{Modelação da base de dados}pdfTeX warning (ext4):
+ destination with the same identifier (name{figure.3.9}) has been already used,
+ duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.108 \FloatBarrier
+                   \section{Modelação da base de dados} <./figuras/storyboard
+/frame_6.jpg> <./figuras/storyboard/frame_7.jpg>]
+<figuras/diagrama_e-r.png, id=591, 793.96625pt x 869.2475pt>
 File: figuras/diagrama_e-r.png Graphic file (type png)
 <use figuras/diagrama_e-r.png>
-Package pdftex.def Info: figuras/diagrama_e-r.png  used on input line 115.
+Package pdftex.def Info: figuras/diagrama_e-r.png  used on input line 119.
 (pdftex.def)             Requested size: 426.79135pt x 467.26448pt.
- [19]
-<figuras/modelo_físico.png, id=588, 590.205pt x 374.90062pt>
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.124 \FloatBarrier
+                   \subsection{Modelo Físico} <./figuras/storyboard/frame_8.jp
+g>]
+<figuras/modelo_físico.png, id=597, 590.205pt x 374.90062pt>
 File: figuras/modelo_físico.png Graphic file (type png)
 <use figuras/modelo_físico.png>
-Package pdftex.def Info: figuras/modelo_físico.png  used on input line 126.
+Package pdftex.def Info: figuras/modelo_físico.png  used on input line 130.
 (pdftex.def)             Requested size: 426.79135pt x 271.10666pt.
-
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.131 \FloatBarrier
-                   \section{Modelação UML} <./figuras/diagrama_E-R.png>]
-<figuras/diagrama_classes.png, id=595, 676.02562pt x 459.96844pt>
-File: figuras/diagrama_classes.png Graphic file (type png)
-<use figuras/diagrama_classes.png>
-Package pdftex.def Info: figuras/diagrama_classes.png  used on input line 142.
-(pdftex.def)             Requested size: 426.79135pt x 290.39928pt.
-
-[21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
-0}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.150 
-       <./figuras/modelo_físico.png>]
-<figuras/fluxograma_ESP.png, id=602, 450.18187pt x 558.58687pt>
-File: figuras/fluxograma_ESP.png Graphic file (type png)
-<use figuras/fluxograma_ESP.png>
-Package pdftex.def Info: figuras/fluxograma_ESP.png  used on input line 157.
-(pdftex.def)             Requested size: 426.79135pt x 529.58911pt.
-
-Underfull \vbox (badness 3679) has occurred while \output is active []
-
  [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.163 
-       <./figuras/diagrama_classes.png>]
-<figuras/fluxograma_portal.png, id=609, 412.54124pt x 502.87875pt>
-File: figuras/fluxograma_portal.png Graphic file (type png)
-<use figuras/fluxograma_portal.png>
-Package pdftex.def Info: figuras/fluxograma_portal.png  used on input line 166.
+l.135 \FloatBarrier
+                   \section{Modelação UML} <./figuras/diagrama_E-R.png>]
+<figuras/diagrama_classes.png, id=604, 676.02562pt x 459.96844pt>
+File: figuras/diagrama_classes.png Graphic file (type png)
+<use figuras/diagrama_classes.png>
+Package pdftex.def Info: figuras/diagrama_classes.png  used on input line 146.
+(pdftex.def)             Requested size: 426.79135pt x 290.39928pt.
 
-(pdftex.def)             Requested size: 426.79135pt x 520.25754pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-12}) has been already used, duplicate ignored
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.171 \FloatBarrier
-                   \subsection{Diagrama de sequência} <./figuras/fluxograma_ES
-P.png>]
-<figuras/sequence_diagram_gestor.png, id=616, 659.46375pt x 517.18219pt>
-File: figuras/sequence_diagram_gestor.png Graphic file (type png)
-<use figuras/sequence_diagram_gestor.png>
-Package pdftex.def Info: figuras/sequence_diagram_gestor.png  used on input lin
-e 179.
-(pdftex.def)             Requested size: 426.79135pt x 334.72028pt.
+l.154 
+       <./figuras/modelo_físico.png>]
+<figuras/fluxograma_ESP.png, id=612, 450.18187pt x 558.58687pt>
+File: figuras/fluxograma_ESP.png Graphic file (type png)
+<use figuras/fluxograma_ESP.png>
+Package pdftex.def Info: figuras/fluxograma_ESP.png  used on input line 161.
+(pdftex.def)             Requested size: 426.79135pt x 529.58911pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3679) has occurred while \output is active []
 
  [24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.182 \end{figure}
-                   <./figuras/fluxograma_Portal.png>]
-<figuras/sequence_diagram_system_2.png, id=622, 846.91406pt x 490.08093pt>
-File: figuras/sequence_diagram_system_2.png Graphic file (type png)
-<use figuras/sequence_diagram_system_2.png>
-Package pdftex.def Info: figuras/sequence_diagram_system_2.png  used on input l
-ine 190.
-(pdftex.def)             Requested size: 426.79135pt x 246.9692pt.
+l.167 
+       <./figuras/diagrama_classes.png>]
+<figuras/fluxograma_portal.png, id=619, 412.54124pt x 502.87875pt>
+File: figuras/fluxograma_portal.png Graphic file (type png)
+<use figuras/fluxograma_portal.png>
+Package pdftex.def Info: figuras/fluxograma_portal.png  used on input line 170.
+
+(pdftex.def)             Requested size: 426.79135pt x 520.25754pt.
  [25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.195 \FloatBarrier
-                   \subsection{Diagrama de sequência do caso de uso ...(VIS...
- <./figuras/sequence_diagram_gestor.png>]
-<figuras/sequence_diagram_visitante.png, id=628, 652.68843pt x 304.13625pt>
+l.175 \FloatBarrier
+                   \subsection{Diagrama de sequência} <./figuras/fluxograma_ES
+P.png>] [26pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.3.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.178 
+       <./figuras/fluxograma_Portal.png>]
+<figuras/sequence_diagram_gestor.png, id=630, 659.46375pt x 517.18219pt>
+File: figuras/sequence_diagram_gestor.png Graphic file (type png)
+<use figuras/sequence_diagram_gestor.png>
+Package pdftex.def Info: figuras/sequence_diagram_gestor.png  used on input lin
+e 183.
+(pdftex.def)             Requested size: 426.79135pt x 334.72028pt.
+<figuras/sequence_diagram_system_2.png, id=631, 846.91406pt x 490.08093pt>
+File: figuras/sequence_diagram_system_2.png Graphic file (type png)
+<use figuras/sequence_diagram_system_2.png>
+Package pdftex.def Info: figuras/sequence_diagram_system_2.png  used on input l
+ine 192.
+(pdftex.def)             Requested size: 426.79135pt x 246.9692pt.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.197 \FloatBarrier
+                   \subsection{Cenário 'VISITANTE'} <./figuras/sequence_diagra
+m_gestor.png>]
+<figuras/sequence_diagram_visitante.png, id=637, 652.68843pt x 304.13625pt>
 File: figuras/sequence_diagram_visitante.png Graphic file (type png)
 <use figuras/sequence_diagram_visitante.png>
 Package pdftex.def Info: figuras/sequence_diagram_visitante.png  used on input 
 line 201.
 (pdftex.def)             Requested size: 426.79135pt x 198.87888pt.
-) (./capitulos/capitulo4.tex [26pdfTeX warning (ext4): destination with the sam
-e identifier (name{figure.3.15}) has been already used, duplicate ignored
+) (./capitulos/capitulo4.tex [28pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.3.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 \chapter
             {teste com utilizadores}pdfTeX warning (ext4): destination with the
- same identifier (name{figure.3.16}) has been already used, duplicate ignored
+ same identifier (name{figure.3.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 \chapter
             {teste com utilizadores} <./figuras/sequence_diagram_system_2.png> 
 <./figuras/sequence_diagram_visitante.png>]) (./capitulos/capitulo5.tex
-[27
+[29
 
-] [28
+] [30
 
 ]) (./TP_DBM.bbl (./TP_DBM.brf)
 \tf@brf=\write5
 \openout5 = `TP_DBM.brf'.
 
- [29] [30
+ [31] [32
 
 ]
 bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
-) [31] [32
+) [33] [34
 
-] [33] [34] (./apendices/apendice1.tex)
+] [35] [36] (./apendices/apendice1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35
+ [37
 
 ]
-[36] [37
+[38] [39
 
-] [38] (./anexos/anexo1.texpdfTeX warning (ext4): destination with the same ide
+] [40] (./anexos/anexo1.texpdfTeX warning (ext4): destination with the same ide
 ntifier (name{appendix.A}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1477,7 +1517,7 @@ l.1 \chapter{Título do Anexo I}
                                 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39
+ [41
 
 ]
 
@@ -1486,7 +1526,7 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 59.
 
-[40]
+[42]
 \tf@toc=\write6
 \openout6 = `TP_DBM.toc'.
 
@@ -1505,16 +1545,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `TP_DBM.out' has not changed.
-(rerunfilecheck)             Checksum: 787144E1CAEDD3892703694167330AAA;4673.
+(rerunfilecheck)             Checksum: D6D1EE4886D7967270FD76FBEED7E9A1;4485.
 Package rerunfilecheck Info: File `TP_DBM.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 23868 strings out of 492163
- 404963 string characters out of 6129077
- 771755 words of memory out of 5000000
- 27747 multiletter control sequences out of 15000+600000
+ 23961 strings out of 492163
+ 406305 string characters out of 6129077
+ 773953 words of memory out of 5000000
+ 27833 multiletter control sequences out of 15000+600000
  541792 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,14n,71p,1181b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1527,10 +1567,10 @@ ublic/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 c:/texlive/2019/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on TP_DBM.pdf (60 pages, 2327895 bytes).
+Output written on TP_DBM.pdf (62 pages, 2564879 bytes).
 PDF statistics:
- 763 PDF objects out of 1000 (max. 8388607)
- 630 compressed objects within 7 object streams
- 145 named destinations out of 1000 (max. 500000)
- 566 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 773 PDF objects out of 1000 (max. 8388607)
+ 636 compressed objects within 7 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 568 words of extra memory for PDF output out of 10000 (max. 10000000)
 
