@@ -7,7 +7,7 @@ Os modelos propostos de interfaces com o utilizador, base de dados, classes e di
 \section{Modelação de interfaces}
 
 Para o desenvolvimento das interfaces foram utilizados vários modelos, permitindo assim perceber de forma genérica as sequências de acções de navegação do utilizador. A figura \ref{fig:diagrama_arvore} representa uma árvore na qual podemos observar as páginas do portal e entender qual a ligação entre as diversas páginas utilizadas no portal.
-É nossa intenção manter a simplicidade na estrutura do portal.
+É nossa intenção manter a simplicidade na estrutura do portal, optando por criar páginas simples que efectuem apenas uma função e não possuir "profundidade" de navegação.
 
 \begin{figure}[!h]
 	\centering
@@ -18,7 +18,84 @@ Para o desenvolvimento das interfaces foram utilizados vários modelos, permitin
 
 \FloatBarrier\subsection{Storyboard de navegação}
 
-%Desenhos das paginas principais do frontend
+
+%\begin{table}[]
+%	\begin{tabular}{cc}
+%	text	& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_0.jpg} \\
+%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_1.jpg} \\
+%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_2.jpg} \\
+%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_3.jpg} \\
+%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_4.jpg} \\
+%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_5.jpg} \\
+%		& \includegraphics[width=0.5\textwidth, frame]{figuras/storyboard/frame_6.jpg}
+%	\end{tabular}
+%\end{table}
+
+Apresentamos de seguida uma série de desenhos de baixa fidelidade, em papel, que tentam mostrar as informações e estrutura do portal.
+A figura \ref{fig:inicio} representa a página inicial do portal, onde é possível aceder Às opções login e visualizar a página de novidades. A navegação será sempre realizada por um menu horizontal com hiperligações no topo da página. A localização será sempre dada pelo título da página aberta no explorador.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_0.jpg}
+	\caption{Desenho de baixa fidelidade da página inicial do portal}
+	\label{fig:inicio}
+\end{figure}
+
+A figura \ref{fig:login} representa a página de login, onde apenas existem campos de texto para inserir as credenciais de autenticação e o o botão de submissão. Mais uma vez a barra de navegação encontra-se no topo do ecrã.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_1.jpg}
+	\caption{Desenho de baixa fidelidade da página de login}
+	\label{fig:login}
+\end{figure}
+
+A figura \ref{fig:novidades} representa a página para a qual um utilizador é levado após o login. Esta página é também acessível a utilizadores não registados. Aqui são apresentadas pequenas noticias ou informações importante relacionadas com o sistemas. Todas estas informações são da responsabilidade do gestor do sistema.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_2.jpg}
+	\caption{Desenho de baixa fidelidade da página novidades}
+	\label{fig:novidades}
+\end{figure}
+
+A figura \ref{fig:ocorrencias} representa a página de ocorrências, onde estão listadas as ocorrências enviadas pelos dispositivos móveis que estão ligado ao portal. A lista é apresentada sob a forma de feed, onde é possível alterar o estado da ocorrência, de modo a assinalar a mesma como resolvida ou não resolvida, ver os detalhes da ocorrência e apagá-la. esta ultima opção poderá estar apenas presente nas versões de teste, pois é útil nesta fase.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_3.jpg}
+\caption{Desenho de baixa fidelidade da página ocorrências}
+\label{fig:ocorrencias}
+\end{figure}
+
+A figura \ref{fig:ocorrencias} representa a página de ocorrências com os detalhes de uma ocorrência observáveis. Estas informações são uma mistura de dados enviados pelo dispositivo móvel (data, zona, localização e tipo de sensor activado) e dados já processados pelo portal, uma vez que é este que adiciona o mapa com localização e os números de contacto dos piquetes.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_4.jpg}
+	\caption{Desenho de baixa fidelidade da página de detalhes de ocorrência}
+	\label{fig:ocorrência_detalhes}
+\end{figure}
+
+A figura \ref{fig:ocorrência_detalhes} representa a página de piquetes onde é possível gerir os piquetes já criados, bem como adicionar novos.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_5.jpg}
+	\caption{Desenho de baixa fidelidade da página piquetes}
+	\label{fig:piquetes}
+\end{figure}
+
+A figura \ref{fig:ocorrencias} representa a página de utilizadores
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.3\textwidth, frame]{figuras/storyboard/frame_6.jpg}
+	\caption{Desenho de baixa fidelidade da página utilizadores}
+	\label{fig:utilizadores}
+\end{figure}
+
+
 
 \FloatBarrier\subsection{Interface do caso de uso 1}
 
@@ -31,6 +108,7 @@ A modelação da base de dados é fundamental para a implementação do sistema 
 \FloatBarrier\subsection{Modelo Entidade-Relação}
 
 A figura \ref{fig:Modelo_E/R} permite observar as relações entre as diversas entidades da base de dados. Através deste diagrama simplificado podemos visualizar as diversas acções que podem ser realizadas sobre o sistema.
+O dispositivo, vai actuar como elemento central, uma vez que terá a capacidade de criar a ocorrência, que por sua vez será enviada ao piquete através do portal. Desta forma achamos que podemos garantir um funcionamento rápido e fiável do sistema. O portal, terá como função apresentar as informações ao utilizadores, tendo o gestor a capacidade de criar utilizadores, enquanto que este limitam-se à criação de novidades (pequenos elementos de texto que são apresentados na página inicial). O gestor poderá ainda gerir as listas de ocorrências e piquetes.
 
 \begin{figure}[!htb]
 	\centering
@@ -66,12 +144,22 @@ A figura \ref{fig:diagrama_classes} representa o diagrama de classes desenvolvid
 	\label{fig:diagrama_classes}
 \end{figure}
 
+O dispositivo móvel possui apenas uma classe que lhe permite criar uma ligação Wifi, obter a geolocalização ()quer por coordenadas quer através do IP da ligação), inicializar os sensores e ler os valores obtidos pelos sensores. 
+existe ainda dentro da classe o método loop, que permite o funcionamento do dispositivo. É neste método que é criada uma string que é enviada ao portal para processamento. Este envio da string é o que nos descrevemos na figura como pedido de assistência.
+O portal cinco classes, das quais as classes ocorrências, piquetes, users e novidades são utilizadas para a gestão destas entidades. A classe post-esp-data trata da comunicação da ocorrência ao piquete.
+
+Devido à simplicidade do método que optamos por criar o diagrama de classes não faz um verdadeiro jus à complexidade  da operação do pedido de assistência, pelo que optamos por apresentar também fluxogramas que descrevem o as operações quer do dispositivo móvel, quer do portal.
+
+Assim a figura \ref{fig:fluxograma_ESP} descreve as operações do dispositivo móvel. Existe assim um loop a correr continuamente que verifica em primeiro lufar a ligação à rede wifi, de seguida lê os sensores. Caso haja uma detecção por parte dos sensores é criada uma flag, é obtida a localização (coordenadas ou IP) e é criado um string de post que é enviada ao portal. A flag é então limpa e o loop recomeça.
+
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\textwidth]{figuras/fluxograma_ESP.png}
 	\caption{Fluxograma do funcionamento do ESP}
 	\label{fig:fluxograma_ESP}
 \end{figure}
+
+A figura \ref{fig:fluxograma_portal} descreve as operações do portal. Este ao receber a string de post, analisa-a e separa os diferentes campos. Com esta informação cria uma ocorrência na base de dados, consulta a tabela piquetes de modo a seleccionar qual o piquete associado à área geográfica e por fim cria e envia o e-mail ao piquete seleccionado. 
 
 \begin{figure}[!htb]
 	\centering

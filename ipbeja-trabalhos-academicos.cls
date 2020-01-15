@@ -19,6 +19,7 @@ Changes:
 
 % graphics, symbols and hyperlink packages
 \RequirePackage{graphicx}
+\RequirePackage[export]{adjustbox}
 \RequirePackage{amssymb}
 \RequirePackage[%
 bookmarks=true, % generate bookmarks ...
