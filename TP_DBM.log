@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.2)  15 JAN 2020 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.2)  16 JAN 2020 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,19 +1081,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 ]
-<figuras/Sistemas_alert_Alarm_Australia.jpg, id=461, 58.71938pt x 75.28125pt>
+<figuras/Sistemas_alert_Alarm_Australia.jpg, id=464, 58.71938pt x 75.28125pt>
 File: figuras/Sistemas_alert_Alarm_Australia.jpg Graphic file (type jpg)
 <use figuras/Sistemas_alert_Alarm_Australia.jpg>
 Package pdftex.def Info: figuras/Sistemas_alert_Alarm_Australia.jpg  used on in
 put line 23.
 (pdftex.def)             Requested size: 85.35826pt x 109.43413pt.
-<figuras/Sistemas_MedicalAlert.png, id=462, 289.83281pt x 429.85594pt>
+<figuras/Sistemas_MedicalAlert.png, id=465, 289.83281pt x 429.85594pt>
 File: figuras/Sistemas_MedicalAlert.png Graphic file (type png)
 <use figuras/Sistemas_MedicalAlert.png>
 Package pdftex.def Info: figuras/Sistemas_MedicalAlert.png  used on input line 
 29.
 (pdftex.def)             Requested size: 85.35826pt x 126.59651pt.
-<figuras/Sistemas_Bluestar.png, id=463, 188.3838pt x 188.3838pt>
+<figuras/Sistemas_Bluestar.png, id=466, 188.3838pt x 188.3838pt>
 File: figuras/Sistemas_Bluestar.png Graphic file (type png)
 <use figuras/Sistemas_Bluestar.png>
 Package pdftex.def Info: figuras/Sistemas_Bluestar.png  used on input line 35.
@@ -1103,12 +1103,12 @@ Underfull \hbox (badness 1297) in paragraph at lines 36--36
 []\OT1/cmr/bx/n/12 Figura 1.3: []\OT1/cmr/m/n/12 Admiral
  []
 
-<figuras/Sistemas_Lifeline.png, id=467, 226.446pt x 185.0112pt>
+<figuras/Sistemas_Lifeline.png, id=470, 226.446pt x 185.0112pt>
 File: figuras/Sistemas_Lifeline.png Graphic file (type png)
 <use figuras/Sistemas_Lifeline.png>
 Package pdftex.def Info: figuras/Sistemas_Lifeline.png  used on input line 47.
 (pdftex.def)             Requested size: 174.13245pt x 142.26378pt.
-<figuras/sistemas_Medical_Alert_System.png, id=468, 224.037pt x 224.037pt>
+<figuras/sistemas_Medical_Alert_System.png, id=471, 224.037pt x 224.037pt>
 File: figuras/sistemas_Medical_Alert_System.png Graphic file (type png)
 <use figuras/sistemas_Medical_Alert_System.png>
 Package pdftex.def Info: figuras/sistemas_Medical_Alert_System.png  used on inp
@@ -1154,7 +1154,7 @@ feline.png> <./figuras/sistemas_Medical_Alert_System.png>]
 (./capitulos/capitulo2.tex [4
 
 ]
-<figuras/cenario_global_sistema.png, id=488, 311.66437pt x 372.64218pt>
+<figuras/cenario_global_sistema.png, id=492, 311.66437pt x 372.64218pt>
 File: figuras/cenario_global_sistema.png Graphic file (type png)
 <use figuras/cenario_global_sistema.png>
 Package pdftex.def Info: figuras/cenario_global_sistema.png  used on input line
@@ -1168,57 +1168,57 @@ Package pdftex.def Info: figuras/cenario_global_sistema.png  used on input line
 l.19 \paragraph
                {Tipo de utilizadores:} Os utilizadores serão, na maioria do...
  <./figuras/cenario_global_sistema.png>] [6] [7] [8] [9]
-Overfull \hbox (4.425pt too wide) in paragraph at lines 99--100
+Overfull \hbox (4.425pt too wide) in paragraph at lines 98--99
 []\OT1/cmr/m/n/12 Apercebendo-se ime-di-a-ta-mente de que ti-nha ac-ti-vado o s
 is-tema de tele-assist^encia,
  []
 
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-06.
+05.
 (c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
  [10]
-Overfull \hbox (14.07066pt too wide) in paragraph at lines 121--122
+Overfull \hbox (14.07066pt too wide) in paragraph at lines 120--121
 []\OT1/cmr/bx/n/12 Reportar uma ocorr^encia au-to-ma-ti-ca-mente - \OT1/cmr/m/n
 /12 Uma ocorr^encia pode tamb^^Sem
  []
 
 [11]
-<figuras/diagrama_casos_uso.png, id=527, 1009.52156pt x 563.10374pt>
+<figuras/diagrama_casos_uso.png, id=531, 1009.52156pt x 563.10374pt>
 File: figuras/diagrama_casos_uso.png Graphic file (type png)
 <use figuras/diagrama_casos_uso.png>
-Package pdftex.def Info: figuras/diagrama_casos_uso.png  used on input line 139
+Package pdftex.def Info: figuras/diagrama_casos_uso.png  used on input line 138
 .
 (pdftex.def)             Requested size: 426.79135pt x 238.05716pt.
 
-Overfull \vbox (6.2726pt too high) detected at line 172
+Overfull \vbox (6.2726pt too high) detected at line 171
  []
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 174--174
+Underfull \hbox (badness 3128) in paragraph at lines 173--173
 \OT1/cmr/m/n/12 se en-con-tra no topo da
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 176--177
+Underfull \hbox (badness 3108) in paragraph at lines 175--176
 \OT1/cmr/m/n/12 pi-que-tes. Nesta p^^Sagina
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 \OT1/cmr/m/n/12 que cont^em os cam-pos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 \OT1/cmr/m/n/12 tem tamb^^Sem os bot~oes
  []
 
 
-Overfull \hbox (25.61488pt too wide) in paragraph at lines 153--187
+Overfull \hbox (25.61488pt too wide) in paragraph at lines 152--186
  [][] 
  []
 
@@ -1230,7 +1230,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.191 \section
+l.190 \section
               {Requisitos} <./figuras/diagrama_casos_uso.png>]
 Underfull \vbox (badness 1490) has occurred while \output is active []
 
@@ -1239,9 +1239,9 @@ Underfull \vbox (badness 1490) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.206 
+l.205 
       ]) (./capitulos/capitulo3.tex [14]
-<figuras/diagrama_arvore.png, id=544, 2067.725pt x 1726.45pt>
+<figuras/diagrama_arvore.png, id=548, 2067.725pt x 1726.45pt>
 File: figuras/diagrama_arvore.png Graphic file (type png)
 <use figuras/diagrama_arvore.png>
 Package pdftex.def Info: figuras/diagrama_arvore.png  used on input line 14.
@@ -1253,7 +1253,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [15
 
 ]
-<figuras/storyboard/frame_0.jpg, id=550, 963.6pt x 673.01437pt>
+<figuras/storyboard/frame_0.jpg, id=554, 963.6pt x 673.01437pt>
 File: figuras/storyboard/frame_0.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_0.jpg>
 Package pdftex.def Info: figuras/storyboard/frame_0.jpg  used on input line 27.
@@ -1266,13 +1266,13 @@ Package pdftex.def Info: figuras/storyboard/frame_0.jpg  used on input line 27.
                                                   \fi \fi 
 l.32 \FloatBarrier
                    <./figuras/diagrama_arvore.png>]
-<figuras/storyboard/frame_1.jpg, id=557, 963.6pt x 673.01437pt>
+<figuras/storyboard/frame_1.jpg, id=561, 963.6pt x 673.01437pt>
 File: figuras/storyboard/frame_1.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_1.jpg>
 Package pdftex.def Info: figuras/storyboard/frame_1.jpg  used on input line 36.
 
 (pdftex.def)             Requested size: 213.39568pt x 149.0392pt.
-<figuras/storyboard/frame_2.jpg, id=559, 963.6pt x 673.01437pt>
+<figuras/storyboard/frame_2.jpg, id=563, 963.6pt x 673.01437pt>
 File: figuras/storyboard/frame_2.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_2.jpg>
 Package pdftex.def Info: figuras/storyboard/frame_2.jpg  used on input line 45.
@@ -1292,13 +1292,13 @@ name{figure.3.3}) has been already used, duplicate ignored
 l.50 \FloatBarrier
                    <./figuras/storyboard/frame_0.jpg> <./figuras/storyboard/fra
 me_1.jpg>]
-<figuras/storyboard/frame_3.jpg, id=566, 963.6pt x 687.31781pt>
+<figuras/storyboard/frame_3.jpg, id=570, 963.6pt x 687.31781pt>
 File: figuras/storyboard/frame_3.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_3.jpg>
 Package pdftex.def Info: figuras/storyboard/frame_3.jpg  used on input line 54.
 
 (pdftex.def)             Requested size: 213.39568pt x 152.20671pt.
-<figuras/storyboard/frame_4.jpg, id=568, 963.6pt x 681.29532pt>
+<figuras/storyboard/frame_4.jpg, id=572, 963.6pt x 681.29532pt>
 File: figuras/storyboard/frame_4.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_4.jpg>
 Package pdftex.def Info: figuras/storyboard/frame_4.jpg  used on input line 63.
@@ -1318,18 +1318,18 @@ name{figure.3.5}) has been already used, duplicate ignored
 l.68 \FloatBarrier
                    <./figuras/storyboard/frame_2.jpg> <./figuras/storyboard/fra
 me_3.jpg>]
-<figuras/storyboard/frame_5.jpg, id=574, 963.6pt x 624.08156pt>
+<figuras/storyboard/frame_5.jpg, id=578, 963.6pt x 624.08156pt>
 File: figuras/storyboard/frame_5.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_5.jpg>
 Package pdftex.def Info: figuras/storyboard/frame_5.jpg  used on input line 72.
 
 (pdftex.def)             Requested size: 213.39568pt x 138.20302pt.
-<figuras/storyboard/frame_6.jpg, id=576, 963.6pt x 671.50874pt>
+<figuras/storyboard/frame_6.jpg, id=580, 963.6pt x 681.29532pt>
 File: figuras/storyboard/frame_6.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_6.jpg>
 Package pdftex.def Info: figuras/storyboard/frame_6.jpg  used on input line 81.
 
-(pdftex.def)             Requested size: 213.39568pt x 148.70578pt.
+(pdftex.def)             Requested size: 213.39568pt x 150.87302pt.
  [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 6}) has been already used, duplicate ignored
 
@@ -1344,13 +1344,13 @@ name{figure.3.7}) has been already used, duplicate ignored
 l.86 \FloatBarrier
                    <./figuras/storyboard/frame_4.jpg> <./figuras/storyboard/fra
 me_5.jpg>]
-<figuras/storyboard/frame_7.jpg, id=583, 963.6pt x 681.29532pt>
+<figuras/storyboard/frame_7.jpg, id=587, 963.6pt x 671.50874pt>
 File: figuras/storyboard/frame_7.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_7.jpg>
 Package pdftex.def Info: figuras/storyboard/frame_7.jpg  used on input line 90.
 
-(pdftex.def)             Requested size: 213.39568pt x 150.87302pt.
-<figuras/storyboard/frame_8.jpg, id=585, 963.6pt x 685.8122pt>
+(pdftex.def)             Requested size: 213.39568pt x 148.70578pt.
+<figuras/storyboard/frame_8.jpg, id=589, 963.6pt x 685.8122pt>
 File: figuras/storyboard/frame_8.jpg Graphic file (type jpg)
 <use figuras/storyboard/frame_8.jpg>
 Package pdftex.def Info: figuras/storyboard/frame_8.jpg  used on input line 99.
@@ -1371,7 +1371,7 @@ l.108 \FloatBarrier
 l.108 \FloatBarrier
                    \section{Modelação da base de dados} <./figuras/storyboard
 /frame_6.jpg> <./figuras/storyboard/frame_7.jpg>]
-<figuras/diagrama_e-r.png, id=591, 793.96625pt x 869.2475pt>
+<figuras/diagrama_e-r.png, id=595, 793.96625pt x 869.2475pt>
 File: figuras/diagrama_e-r.png Graphic file (type png)
 <use figuras/diagrama_e-r.png>
 Package pdftex.def Info: figuras/diagrama_e-r.png  used on input line 119.
@@ -1384,7 +1384,7 @@ Package pdftex.def Info: figuras/diagrama_e-r.png  used on input line 119.
 l.124 \FloatBarrier
                    \subsection{Modelo Físico} <./figuras/storyboard/frame_8.jp
 g>]
-<figuras/modelo_físico.png, id=597, 590.205pt x 374.90062pt>
+<figuras/modelo_físico.png, id=601, 590.205pt x 374.90062pt>
 File: figuras/modelo_físico.png Graphic file (type png)
 <use figuras/modelo_físico.png>
 Package pdftex.def Info: figuras/modelo_físico.png  used on input line 130.
@@ -1396,7 +1396,7 @@ Package pdftex.def Info: figuras/modelo_físico.png  used on input line 130.
                                                   \fi \fi 
 l.135 \FloatBarrier
                    \section{Modelação UML} <./figuras/diagrama_E-R.png>]
-<figuras/diagrama_classes.png, id=604, 676.02562pt x 459.96844pt>
+<figuras/diagrama_classes.png, id=608, 676.02562pt x 459.96844pt>
 File: figuras/diagrama_classes.png Graphic file (type png)
 <use figuras/diagrama_classes.png>
 Package pdftex.def Info: figuras/diagrama_classes.png  used on input line 146.
@@ -1409,7 +1409,7 @@ Package pdftex.def Info: figuras/diagrama_classes.png  used on input line 146.
                                                   \fi \fi 
 l.154 
        <./figuras/modelo_físico.png>]
-<figuras/fluxograma_ESP.png, id=612, 450.18187pt x 558.58687pt>
+<figuras/fluxograma_ESP.png, id=616, 450.18187pt x 558.58687pt>
 File: figuras/fluxograma_ESP.png Graphic file (type png)
 <use figuras/fluxograma_ESP.png>
 Package pdftex.def Info: figuras/fluxograma_ESP.png  used on input line 161.
@@ -1424,7 +1424,7 @@ Underfull \vbox (badness 3679) has occurred while \output is active []
                                                   \fi \fi 
 l.167 
        <./figuras/diagrama_classes.png>]
-<figuras/fluxograma_portal.png, id=619, 412.54124pt x 502.87875pt>
+<figuras/fluxograma_portal.png, id=623, 412.54124pt x 502.87875pt>
 File: figuras/fluxograma_portal.png Graphic file (type png)
 <use figuras/fluxograma_portal.png>
 Package pdftex.def Info: figuras/fluxograma_portal.png  used on input line 170.
@@ -1444,72 +1444,88 @@ gure.3.15}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.178 
        <./figuras/fluxograma_Portal.png>]
-<figuras/sequence_diagram_gestor.png, id=630, 659.46375pt x 517.18219pt>
+<figuras/sequence_diagram_visitante.png, id=635, 652.68843pt x 304.13625pt>
+File: figuras/sequence_diagram_visitante.png Graphic file (type png)
+<use figuras/sequence_diagram_visitante.png>
+Package pdftex.def Info: figuras/sequence_diagram_visitante.png  used on input 
+line 187.
+(pdftex.def)             Requested size: 426.79135pt x 198.87888pt.
+<figuras/sequence_diagram_gestor.png, id=637, 659.46375pt x 517.18219pt>
 File: figuras/sequence_diagram_gestor.png Graphic file (type png)
 <use figuras/sequence_diagram_gestor.png>
 Package pdftex.def Info: figuras/sequence_diagram_gestor.png  used on input lin
-e 183.
+e 198.
 (pdftex.def)             Requested size: 426.79135pt x 334.72028pt.
-<figuras/sequence_diagram_system_2.png, id=631, 846.91406pt x 490.08093pt>
-File: figuras/sequence_diagram_system_2.png Graphic file (type png)
-<use figuras/sequence_diagram_system_2.png>
-Package pdftex.def Info: figuras/sequence_diagram_system_2.png  used on input l
-ine 192.
-(pdftex.def)             Requested size: 426.79135pt x 246.9692pt.
  [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.197 \FloatBarrier
-                   \subsection{Cenário 'VISITANTE'} <./figuras/sequence_diagra
-m_gestor.png>]
-<figuras/sequence_diagram_visitante.png, id=637, 652.68843pt x 304.13625pt>
-File: figuras/sequence_diagram_visitante.png Graphic file (type png)
-<use figuras/sequence_diagram_visitante.png>
-Package pdftex.def Info: figuras/sequence_diagram_visitante.png  used on input 
-line 201.
-(pdftex.def)             Requested size: 426.79135pt x 198.87888pt.
+l.203 \FloatBarrier
+                   \subsection{Cenário 'detecção de queda'} <./figuras/seque
+nce_diagram_visitante.png>]
+<figuras/sequence_diagram_system_2.png, id=644, 846.91406pt x 490.08093pt>
+File: figuras/sequence_diagram_system_2.png Graphic file (type png)
+<use figuras/sequence_diagram_system_2.png>
+Package pdftex.def Info: figuras/sequence_diagram_system_2.png  used on input l
+ine 209.
+(pdftex.def)             Requested size: 426.79135pt x 246.9692pt.
 ) (./capitulos/capitulo4.tex [28pdfTeX warning (ext4): destination with the sam
 e identifier (name{figure.3.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 \chapter
-            {teste com utilizadores}pdfTeX warning (ext4): destination with the
- same identifier (name{figure.3.18}) has been already used, duplicate ignored
+            {teste com utilizadores} <./figuras/sequence_diagram_gestor.png>]
+[29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 \chapter
-            {teste com utilizadores} <./figuras/sequence_diagram_system_2.png> 
-<./figuras/sequence_diagram_visitante.png>]) (./capitulos/capitulo5.tex
-[29
+            {teste com utilizadores} <./figuras/sequence_diagram_system_2.png>]
+[30
 
-] [30
+]) (./capitulos/capitulo5.tex [31] [32
 
 ]) (./TP_DBM.bbl (./TP_DBM.brf)
 \tf@brf=\write5
 \openout5 = `TP_DBM.brf'.
 
- [31] [32
+
+[33] [34
 
 ]
 bibitemlist
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   o
+l.36 
+     
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-LaTeX Warning: Empty `thebibliography' environment on input line 24.
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   o
+l.36 
+     
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-) [33] [34
+) [35] [36
 
-] [35] [36] (./apendices/apendice1.tex)
+] [37] [38] (./apendices/apendice1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37
+ [39
 
 ]
-[38] [39
+[40] [41
 
-] [40] (./anexos/anexo1.texpdfTeX warning (ext4): destination with the same ide
+] [42] (./anexos/anexo1.texpdfTeX warning (ext4): destination with the same ide
 ntifier (name{appendix.A}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1517,7 +1533,7 @@ l.1 \chapter{Título do Anexo I}
                                 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41
+ [43
 
 ]
 
@@ -1526,7 +1542,7 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 59.
 
-[42]
+[44]
 \tf@toc=\write6
 \openout6 = `TP_DBM.toc'.
 
@@ -1545,16 +1561,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `TP_DBM.out' has not changed.
-(rerunfilecheck)             Checksum: D6D1EE4886D7967270FD76FBEED7E9A1;4485.
+(rerunfilecheck)             Checksum: E88D656B08F787AEAA2BA5E133925DCB;4500.
 Package rerunfilecheck Info: File `TP_DBM.brf' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 31BD6F6FE7D2D26C228FD450D1B2CB00;83.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 23961 strings out of 492163
- 406305 string characters out of 6129077
- 773953 words of memory out of 5000000
- 27833 multiletter control sequences out of 15000+600000
+ 23977 strings out of 492163
+ 406480 string characters out of 6129077
+ 774091 words of memory out of 5000000
+ 27845 multiletter control sequences out of 15000+600000
  541792 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,14n,71p,1181b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1567,10 +1583,10 @@ ublic/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 c:/texlive/2019/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on TP_DBM.pdf (62 pages, 2564879 bytes).
+Output written on TP_DBM.pdf (64 pages, 2571419 bytes).
 PDF statistics:
- 773 PDF objects out of 1000 (max. 8388607)
- 636 compressed objects within 7 object streams
- 148 named destinations out of 1000 (max. 500000)
+ 795 PDF objects out of 1000 (max. 8388607)
+ 656 compressed objects within 7 object streams
+ 152 named destinations out of 1000 (max. 500000)
  568 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -48,13 +48,13 @@
 \contentsline {section}{\numberline {3.3}Modelação UML}{23}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Diagrama de classes}{23}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Diagrama de sequência}{26}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Cenário 'adicionar piquete'}{27}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Cenário 'detecção de queda'}{27}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Cenário 'VISITANTE'}{28}{subsection.3.3.5}%
-\contentsline {chapter}{\chapternumberline {4}teste com utilizadores}{29}{chapter.4}%
-\contentsline {chapter}{\chapternumberline {5}Implementação}{31}{chapter.5}%
-\contentsline {chapter}{Bibliografia}{33}{chapter*.14}%
-\contentsline {chapter}{Apêndices}{35}{section*.15}%
-\contentsline {appendix}{\chapternumberline {I}Título do Apêndice I}{37}{appendix.A}%
-\contentsline {chapter}{Anexos}{39}{section*.16}%
-\contentsline {appendix}{\chapternumberline {I}Título do Anexo I}{41}{appendix.A}%
+\contentsline {subsection}{\numberline {3.3.3}Cenário 'gerar homepage do portal'}{27}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Cenário 'adicionar piquete'}{27}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Cenário 'detecção de queda'}{28}{subsection.3.3.5}%
+\contentsline {chapter}{\chapternumberline {4}teste com utilizadores}{31}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {5}Implementação}{33}{chapter.5}%
+\contentsline {chapter}{Bibliografia}{35}{chapter*.14}%
+\contentsline {chapter}{Apêndices}{37}{section*.15}%
+\contentsline {appendix}{\chapternumberline {I}Título do Apêndice I}{39}{appendix.A}%
+\contentsline {chapter}{Anexos}{41}{section*.16}%
+\contentsline {appendix}{\chapternumberline {I}Título do Anexo I}{43}{appendix.A}%
