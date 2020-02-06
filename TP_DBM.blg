@@ -15,42 +15,42 @@ Database file #1: bibliografiaDoRelatorio.bib
 Done.
 You've used 2 entries,
             4024 wiz_defined-function locations,
-            817 strings with 7521 characters,
-and the built_in function-call counts, 737 in all, are:
-= -- 49
-> -- 5
+            818 strings with 7530 characters,
+and the built_in function-call counts, 793 in all, are:
+= -- 55
+> -- 8
 < -- 0
-+ -- 3
-- -- 1
-* -- 36
-:= -- 145
-add.period$ -- 3
++ -- 4
+- -- 2
+* -- 37
+:= -- 162
+add.period$ -- 4
 call.type$ -- 2
 change.case$ -- 2
 chr.to.int$ -- 0
 cite$ -- 2
-duplicate$ -- 52
-empty$ -- 67
-format.name$ -- 1
-if$ -- 138
+duplicate$ -- 54
+empty$ -- 69
+format.name$ -- 2
+if$ -- 148
 int.to.chr$ -- 0
 int.to.str$ -- 2
-missing$ -- 13
+missing$ -- 14
 newline$ -- 33
-num.names$ -- 1
+num.names$ -- 2
 pop$ -- 44
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 52
+skip$ -- 56
 stack$ -- 0
 substring$ -- 0
-swap$ -- 31
+swap$ -- 34
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 2
 warning$ -- 0
-while$ -- 1
+while$ -- 2
 width$ -- 3
-write$ -- 41
+write$ -- 42
