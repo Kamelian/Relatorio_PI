@@ -1,0 +1,21 @@
+Sugestões de melhoria:
+
+No final da seção 1.1 adicionar umas palavras sobre as diferenças entre o que existe no mercado e a vossa
+proposta.
+
+Nos Diagramas de Casos de Uso, alguns casos de uso caraecem de verbos, por exemplo: Ocorrências, será registar ocorrências?
+- Não, estamos a referenciar uma entidade que está a actuaR sobre o sistema
+
+O Diagrama de Caso de Uso da figura 2.2.deve ser melhorado, por exemplo há duas associações que não estão corretamente identificadas (GPS e
+IP) com GeoL.
+- vamos mudar para <<extends>>
+
+outra situação incorreta é o caso de uso Base de dados.
+- ???
+
+[CORRIGIDO] O preço não é um RNF.
+
+Deve explicar melhor a BD para perceber porque um piquete só pode receber um aviso de ocorrência.
+- O diagrama estava errado. Foi corrigido, mas falta a imagem para o Relatório
+
+O diagrama de classes não tem todas as classes que estão a ser instanciadas no diagrama de sequência.
