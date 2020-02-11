@@ -2,34 +2,38 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Elderlly fall button para seniores da Alert Alarm Australia}}{2}{figure.1.1}% 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Mobile elite System da MedicalAlert}}{2}{figure.1.2}% 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Admiral Alert da BlueStar Senior Tech}}{2}{figure.1.3}% 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Lifeline Vi Alarma Unit da LifelIne24}}{3}{figure.1.4}% 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Medical Alert System da AcadiaOnCall}}{3}{figure.1.5}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Elderlly fall button para seniores da Alert Alarm Australia}}{2}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Mobile elite System da MedicalAlert}}{2}{figure.1.2}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Admiral Alert da BlueStar Senior Tech}}{2}{figure.1.3}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Lifeline Vi Alarma Unit da LifelIne24}}{3}{figure.1.4}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Medical Alert System da AcadiaOnCall}}{3}{figure.1.5}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama de casos de uso}}{5}{figure.2.1}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama de casos de uso}}{12}{figure.2.2}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama de casos de uso}}{5}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama de casos de uso}}{12}{figure.2.2}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Árvore de navegação no portal}}{16}{figure.3.1}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Desenho de baixa fidelidade da página inicial do portal}}{17}{figure.3.2}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Desenho de baixa fidelidade da página de login}}{17}{figure.3.3}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Desenho de baixa fidelidade da página novidades}}{18}{figure.3.4}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Desenho de baixa fidelidade da página adicionar novidades}}{18}{figure.3.5}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Desenho de baixa fidelidade da página ocorrências}}{19}{figure.3.6}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Desenho de baixa fidelidade da página de detalhes de ocorrência}}{19}{figure.3.7}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Desenho de baixa fidelidade da página piquetes}}{20}{figure.3.8}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Desenho de baixa fidelidade da página adicionar piquetes}}{20}{figure.3.9}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Desenho de baixa fidelidade da página utilizadores}}{21}{figure.3.10}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Modelo entidade-relação}}{22}{figure.3.11}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Modelo físico}}{23}{figure.3.12}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagrama de classes}}{24}{figure.3.13}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Fluxograma do funcionamento do ESP}}{25}{figure.3.14}% 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Fluxograma do funcionamento do portal}}{26}{figure.3.15}% 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Diagrama de sequência para ...}}{27}{figure.3.16}% 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Diagrama de sequência para o cenário adicionar piquete}}{28}{figure.3.17}% 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Diagrama de sequência para o cenário detecção de queda}}{29}{figure.3.18}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Árvore de navegação no portal}}{16}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Desenho de baixa fidelidade da página inicial do portal}}{17}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Desenho de baixa fidelidade da página de login}}{17}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Desenho de baixa fidelidade da página novidades}}{18}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Desenho de baixa fidelidade da página adicionar novidades}}{18}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Desenho de baixa fidelidade da página ocorrências}}{19}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Desenho de baixa fidelidade da página de detalhes de ocorrência}}{19}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Desenho de baixa fidelidade da página piquetes}}{20}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Desenho de baixa fidelidade da página adicionar piquetes}}{20}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Desenho de baixa fidelidade da página utilizadores}}{21}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Modelo entidade-relação}}{22}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Modelo físico}}{23}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagrama de classes}}{24}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Fluxograma do funcionamento do ESP}}{25}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Fluxograma do funcionamento do portal}}{26}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Diagrama de sequência para ...}}{27}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Diagrama de sequência para o cenário adicionar piquete}}{28}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Diagrama de sequência para o cenário detecção de queda}}{29}{figure.3.18}%
 \addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ESP8266}}{31}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Sensor MPU6050}}{32}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Módulo GPS GY-NEO6M v3.0}}{32}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Botão de SOS}}{33}{figure.4.4}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

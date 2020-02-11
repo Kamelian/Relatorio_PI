@@ -1,0 +1,120 @@
+% Encoding: UTF-8
+
+@WWW{indice,
+  author = {PORDATA},
+  editor = {PORDATA},
+  title  = {Índice de dependência de idosos},
+  year   = {2020},
+  date   = {2020-01-16},
+  url    = {https://www.pordata.pt/DB/Municipios/Ambiente+de+Consulta/Tabela},
+}
+
+@WWW{relatorio,
+  author = {Market.us},
+  editor = {Market.us},
+  title  = {Global Medical Alert Systems Market},
+  year   = {2020},
+  date   = {2020-01-16},
+  url    = {https://market.us/report/medical-alert-systems-market/#overview},
+}
+
+@WWW{arduino.cc,
+  author = {arduino.cc},
+  editor = {arduino.cc},
+  title  = {What is arduino?},
+  year   = {2020},
+  date   = {2020-02-08},
+  url    = {https://www.arduino.cc/en/Guide/Introduction},
+}
+
+@WWW{arduinoUnoR3,
+  author = {store.arduino.cc},
+  editor = {store.arduino.cc},
+  title  = {Arduino Uno R3},
+  year   = {2020},
+  date   = {2020-02-08},
+  url    = {https://store.arduino.cc/arduino-uno-rev3},
+}
+
+@WWW{ESP8266,
+  author = {Wikipedia},
+  editor = {Wikipedia},
+  title  = {ESP9266},
+  year   = {2020},
+  date   = {2020-02-10},
+  url    = {https://en.wikipedia.org/wiki/ESP8266},
+}
+
+@WWW{ESP8266EX,
+  author = {Espressif Systems},
+  editor = {Espressif Systems},
+  title  = {ESP8266EX},
+  year   = {2020},
+  date   = {2020-02-10},
+  url    = {https://www.espressif.com/en/products/hardware/esp8266ex/overview},
+}
+
+@WWW{MPU6050,
+  author = {TDK Corporation},
+  editor = {TDK Corporation},
+  title  = {MPU-6050},
+  year   = {2020},
+  date   = {2020-02-10},
+  url    = {https://www.invensense.com/products/motion-tracking/6-axis/mpu-6050/},
+}
+
+@WWW{NEO6,
+  author = {u-blox.com},
+  editor = {u-blox.com},
+  title  = {Neo6M Datasheet},
+  year   = {2020},
+  date   = {2020-02-10},
+  url    = {https://www.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf},
+}
+
+@WWW{language,
+  author = {arduino.cc},
+  editor = {arduino.cc},
+  title  = {Arduino programming language},
+  year   = {2020},
+  date   = {2020-02-10},
+  url    = {https://www.arduino.cc/reference/en/},
+}
+
+@WWW{PHP,
+  author = {The PHP Group},
+  editor = {The PHP Group},
+  title  = {PHP},
+  year   = {2020},
+  date   = {2020-02-10},
+  url    = {https://www.php.net/},
+}
+
+@WWW{bootstrap,
+  author = {Bootstrap Team},
+  editor = {Bootstrap Team},
+  title  = {Bootstrap},
+  year   = {2020},
+  date   = {2020-02-10},
+  url    = {https://getbootstrap.com/},
+}
+
+@WWW{javascript,
+  author = {Wikipedia},
+  editor = {Wikipedia},
+  title  = {JavaScript},
+  year   = {2020\},
+  date   = {2020-02-10},
+  url    = {https://en.wikipedia.org/wiki/JavaScript},
+}
+
+@WWW{phpmyadmin,
+  author = {phpMyAdmin contributors},
+  editor = {phpMyAdmin contributors},
+  title  = {phpMyAdmin},
+  year   = {2020},
+  date   = {1},
+  url    = {https://www.phpmyadmin.net/},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

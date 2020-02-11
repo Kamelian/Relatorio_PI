@@ -1,63 +1,69 @@
 \babel@toc {portuges}{}
-\contentsline {chapter}{Resumo}{v}{chapter*.1}% 
-\contentsline {chapter}{Abstract}{vii}{chapter*.3}% 
-\contentsline {chapter}{Agradecimentos}{ix}{section*.4}% 
-\contentsline {chapter}{\'{I}ndice}{xi}{section*.5}% 
-\contentsline {chapter}{\'{I}ndice de Figuras}{xv}{section*.6}% 
-\contentsline {chapter}{\'{I}ndice de Tabelas}{xvii}{section*.7}% 
-\contentsline {chapter}{\'{I}ndice de Listagens}{xix}{section*.8}% 
-\contentsline {chapter}{\chapternumberline {1}Introdução}{1}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Análise do estado da arte}{2}{section.1.1}% 
-\contentsline {chapter}{\chapternumberline {2}Análise do problema}{5}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}As 11 questões da análise de tarefas}{6}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}Quem vai utilizar o sistema?}{6}{subsection.2.1.1}% 
-\contentsline {paragraph}{Quem são:}{6}{section*.9}% 
-\contentsline {paragraph}{Tipo de utilizadores:}{6}{section*.10}% 
-\contentsline {paragraph}{Hábitos de trabalho:}{6}{section*.11}% 
-\contentsline {paragraph}{Aptidões:}{6}{section*.12}% 
-\contentsline {paragraph}{Deficiências Físicas-motoras:}{6}{section*.13}% 
-\contentsline {subsection}{\numberline {2.1.2}Que tarefas executam actualmente?}{6}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}Que tarefas são desejáveis?}{6}{subsection.2.1.3}% 
-\contentsline {subsection}{\numberline {2.1.4}Como se aprendem as tarefas?}{6}{subsection.2.1.4}% 
-\contentsline {subsection}{\numberline {2.1.5}Onde são desempenhadas as tarefas?}{7}{subsection.2.1.5}% 
-\contentsline {subsection}{\numberline {2.1.6}Quais são as relações entre utilizadores e informações?}{7}{subsection.2.1.6}% 
-\contentsline {subsection}{\numberline {2.1.7}Que outros instrumentos tem o utilizador?}{7}{subsection.2.1.7}% 
-\contentsline {subsection}{\numberline {2.1.8}Como comunica os utilizadores entre si?}{7}{subsection.2.1.8}% 
-\contentsline {subsection}{\numberline {2.1.9}Qual a frequência de desempenho de tarefas?}{7}{subsection.2.1.9}% 
-\contentsline {subsection}{\numberline {2.1.10}Quais as restrições de tempo impostas?}{7}{subsection.2.1.10}% 
-\contentsline {subsection}{\numberline {2.1.11}Que acontece se algo corre mal?}{8}{subsection.2.1.11}% 
-\contentsline {section}{\numberline {2.2}Cenários do problema}{8}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Cenário de problema para a tarefa 1 – Reportar uma situação de emergência, através do botão de pânico}{8}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Cenário de problema para a tarefa 2 – Detectar uma potencial queda do utilizador}{9}{subsection.2.2.2}% 
-\contentsline {subsection}{\numberline {2.2.3}Cenário de problema para a tarefa 3 – Monitorizar e detectar períodos de imobilização prolongados}{9}{subsection.2.2.3}% 
-\contentsline {subsection}{\numberline {2.2.4}Cenário de problema para a tarefa 4 – Reportar uma falsa detecção de situação de emergência}{10}{subsection.2.2.4}% 
-\contentsline {section}{\numberline {2.3}Caracterização dos actores}{10}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Caracterização das tarefas}{11}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}Diagramas de casos de uso}{11}{section.2.5}% 
-\contentsline {section}{\numberline {2.6}Especificação dos casos de uso}{12}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Requisitos}{13}{section.2.7}% 
-\contentsline {subsection}{\numberline {2.7.1}Requisitos funcionais}{13}{subsection.2.7.1}% 
-\contentsline {subsection}{\numberline {2.7.2}Requisitos não funcionais}{14}{subsection.2.7.2}% 
-\contentsline {subsection}{\numberline {2.7.3}Requisitos de desenvolvimento}{14}{subsection.2.7.3}% 
-\contentsline {chapter}{\chapternumberline {3}Desenho do sistema}{15}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Modelação de interfaces}{15}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}Storyboard de navegação}{16}{subsection.3.1.1}% 
-\contentsline {section}{\numberline {3.2}Modelação da base de dados}{21}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}Modelo Entidade-Relação}{21}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {3.2.2}Modelo Físico}{22}{subsection.3.2.2}% 
-\contentsline {section}{\numberline {3.3}Modelação UML}{23}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}Diagrama de classes}{23}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Diagrama de sequência}{26}{subsection.3.3.2}% 
-\contentsline {subsection}{\numberline {3.3.3}Cenário 'gerar homepage do portal'}{27}{subsection.3.3.3}% 
-\contentsline {subsection}{\numberline {3.3.4}Cenário 'adicionar piquete'}{27}{subsection.3.3.4}% 
-\contentsline {subsection}{\numberline {3.3.5}Cenário 'detecção de queda'}{28}{subsection.3.3.5}% 
-\contentsline {chapter}{\chapternumberline {4}teste com utilizadores}{31}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Tecnologias Utilizadas}{31}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Código}{31}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Interacção com a base de dados}{31}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Testes}{31}{section.4.4}% 
-\contentsline {chapter}{\chapternumberline {5}Implementação}{33}{chapter.5}% 
-\contentsline {chapter}{Apêndices}{35}{section*.14}% 
-\contentsline {appendix}{\chapternumberline {I}Título do Apêndice I}{37}{appendix.A}% 
-\contentsline {chapter}{Anexos}{39}{section*.15}% 
-\contentsline {appendix}{\chapternumberline {I}Título do Anexo I}{41}{appendix.A}% 
+\contentsline {chapter}{Resumo}{v}{chapter*.1}%
+\contentsline {chapter}{Abstract}{vii}{chapter*.3}%
+\contentsline {chapter}{Agradecimentos}{ix}{section*.4}%
+\contentsline {chapter}{\'{I}ndice}{xi}{section*.5}%
+\contentsline {chapter}{\'{I}ndice de Figuras}{xv}{section*.6}%
+\contentsline {chapter}{\'{I}ndice de Tabelas}{xvii}{section*.7}%
+\contentsline {chapter}{\'{I}ndice de Listagens}{xix}{section*.8}%
+\contentsline {chapter}{\chapternumberline {1}Introdução}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Análise do estado da arte}{2}{section.1.1}%
+\contentsline {chapter}{\chapternumberline {2}Análise do problema}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}As 11 questões da análise de tarefas}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Quem vai utilizar o sistema?}{6}{subsection.2.1.1}%
+\contentsline {paragraph}{Quem são:}{6}{section*.9}%
+\contentsline {paragraph}{Tipo de utilizadores:}{6}{section*.10}%
+\contentsline {paragraph}{Hábitos de trabalho:}{6}{section*.11}%
+\contentsline {paragraph}{Aptidões:}{6}{section*.12}%
+\contentsline {paragraph}{Deficiências Físicas-motoras:}{6}{section*.13}%
+\contentsline {subsection}{\numberline {2.1.2}Que tarefas executam actualmente?}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Que tarefas são desejáveis?}{6}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Como se aprendem as tarefas?}{6}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Onde são desempenhadas as tarefas?}{7}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Quais são as relações entre utilizadores e informações?}{7}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Que outros instrumentos tem o utilizador?}{7}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.8}Como comunica os utilizadores entre si?}{7}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.1.9}Qual a frequência de desempenho de tarefas?}{7}{subsection.2.1.9}%
+\contentsline {subsection}{\numberline {2.1.10}Quais as restrições de tempo impostas?}{7}{subsection.2.1.10}%
+\contentsline {subsection}{\numberline {2.1.11}Que acontece se algo corre mal?}{8}{subsection.2.1.11}%
+\contentsline {section}{\numberline {2.2}Cenários do problema}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Cenário de problema para a tarefa 1 – Reportar uma situação de emergência, através do botão de pânico}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Cenário de problema para a tarefa 2 – Detectar uma potencial queda do utilizador}{9}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Cenário de problema para a tarefa 3 – Monitorizar e detectar períodos de imobilização prolongados}{9}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Cenário de problema para a tarefa 4 – Reportar uma falsa detecção de situação de emergência}{10}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Caracterização dos actores}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Caracterização das tarefas}{11}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Diagramas de casos de uso}{11}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Especificação dos casos de uso}{12}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Requisitos}{13}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Requisitos funcionais}{13}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Requisitos não funcionais}{14}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Requisitos de desenvolvimento}{14}{subsection.2.7.3}%
+\contentsline {chapter}{\chapternumberline {3}Desenho do sistema}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelação de interfaces}{15}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Storyboard de navegação}{16}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Modelação da base de dados}{21}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Modelo Entidade-Relação}{21}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Modelo Físico}{22}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Modelação UML}{23}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Diagrama de classes}{23}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Diagrama de sequência}{26}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Cenário 'gerar homepage do portal'}{27}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Cenário 'adicionar piquete'}{27}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Cenário 'detecção de queda'}{28}{subsection.3.3.5}%
+\contentsline {chapter}{\chapternumberline {4}Implementação}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tecnologias Utilizadas}{31}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Hardware}{31}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Software}{33}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Base de dados}{33}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Código}{34}{section.4.2}%
+\contentsline {chapter}{\chapternumberline {5}Validação}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Testes}{39}{section.5.1}%
+\contentsline {section}{\numberline {5.2}}{39}{section.5.2}%
+\contentsline {section}{\numberline {5.3}}{39}{section.5.3}%
+\contentsline {section}{\numberline {5.4}}{39}{section.5.4}%
+\contentsline {chapter}{Bibliografia}{41}{chapter*.14}%
+\contentsline {chapter}{Apêndices}{43}{section*.15}%
+\contentsline {appendix}{\chapternumberline {I}Título do Apêndice I}{45}{appendix.A}%
+\contentsline {chapter}{Anexos}{47}{section*.16}%
+\contentsline {appendix}{\chapternumberline {I}Título do Anexo I}{49}{appendix.A}%

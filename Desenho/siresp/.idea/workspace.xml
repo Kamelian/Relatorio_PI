@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="192ab5fd-df88-40c6-a25b-eb8efc191197" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1UtqUF5gCNPTQyP5yUkTZyMsYf0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/Ocorrencias" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\pi\siresp\views\Ocorrencias" />
+      <recent name="C:\xampp\htdocs\pi\siresp\views\Piquetes" />
+      <recent name="C:\xampp\htdocs\pi\siresp\views" />
+      <recent name="C:\xampp\htdocs\pi\siresp\views\Contactos" />
+      <recent name="C:\xampp\htdocs\pi\siresp\models" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="192ab5fd-df88-40c6-a25b-eb8efc191197" name="Default Changelist" comment="" />
+      <created>1572436912862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572436912862</updated>
+      <workItem from="1572436916087" duration="16024000" />
+      <workItem from="1576186259395" duration="5082000" />
+      <workItem from="1576345168131" duration="19137000" />
+      <workItem from="1576438788693" duration="15877000" />
+      <workItem from="1576521141706" duration="13613000" />
+      <workItem from="1576973201347" duration="2524000" />
+      <workItem from="1577035953543" duration="13774000" />
+      <workItem from="1577470464713" duration="1221000" />
+      <workItem from="1577617547902" duration="1415000" />
+      <workItem from="1577619096734" duration="5083000" />
+      <workItem from="1578057354604" duration="3355000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="298" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577618957517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="298" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1577618957517" />
+    <state x="777" y="391" key="com.intellij.ide.util.TipDialog" timestamp="1578057359589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="391" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1578057359589" />
+    <state x="975" y="201" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576350167524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="975" y="201" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1576350167524" />
+    <state x="721" y="256" key="run.anything.popup" timestamp="1577040692341">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="256" key="run.anything.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1577040692341" />
+    <state x="722" y="309" width="672" height="678" key="search.everywhere.popup" timestamp="1577620883752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="722" y="309" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1577620883752" />
+  </component>
+</project>
