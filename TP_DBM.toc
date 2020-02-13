@@ -58,12 +58,13 @@
 \contentsline {subsection}{\numberline {4.1.3}Base de dados}{33}{subsection.4.1.3}%
 \contentsline {section}{\numberline {4.2}Código}{34}{section.4.2}%
 \contentsline {chapter}{\chapternumberline {5}Validação}{39}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Testes}{39}{section.5.1}%
-\contentsline {section}{\numberline {5.2}}{39}{section.5.2}%
-\contentsline {section}{\numberline {5.3}}{39}{section.5.3}%
-\contentsline {section}{\numberline {5.4}}{39}{section.5.4}%
-\contentsline {chapter}{Bibliografia}{41}{chapter*.14}%
-\contentsline {chapter}{Apêndices}{43}{section*.15}%
-\contentsline {appendix}{\chapternumberline {I}Título do Apêndice I}{45}{appendix.A}%
-\contentsline {chapter}{Anexos}{47}{section*.16}%
-\contentsline {appendix}{\chapternumberline {I}Título do Anexo I}{49}{appendix.A}%
+\contentsline {section}{\numberline {5.1}Testes com utilizadores}{39}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Resultados dos testes}{40}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Propostas de redesenho}{40}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Trabalho futuro}{41}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Conclusão}{41}{section.5.3}%
+\contentsline {chapter}{Bibliografia}{43}{chapter*.14}%
+\contentsline {chapter}{Apêndices}{45}{section*.15}%
+\contentsline {appendix}{\chapternumberline {I}Título do Apêndice I}{47}{appendix.A}%
+\contentsline {chapter}{Anexos}{49}{section*.16}%
+\contentsline {appendix}{\chapternumberline {I}Título do Anexo I}{51}{appendix.A}%
